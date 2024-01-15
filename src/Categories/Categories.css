@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #C8AB8D;
+    font-family: sans-serif;
+}
+.category-heading{
+    text-align: center;
+    padding: 2%;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.bookcategories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-bottom: 2%;
+}
+.image-book-category-1 img,
+.image-book-category-2 img,
+.image-book-category-3 img,
+.image-book-category-4 img{
+    width: 18vw;
+    height: 45vh;
+    margin-top: 1%;
+}
+.title-book-category-1,
+.title-book-category-2,
+.title-book-category-3,
+.title-book-category-4{
+    width: 18vw;
+    height: 4vh;
+    background-color: #D0B999;
+    text-align: center;
+}
