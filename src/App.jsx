@@ -1,6 +1,6 @@
 
-import './App.css'
-
+// import './App.css'
+import Sinup from './Sinupproject/sinup'
 import Profiles from './profile/Profiles'
 import non1 from '../public/non1.jpg'
 import non2 from '../public/non2.jpg'
@@ -22,6 +22,7 @@ function App() {
 
   return (
     <>
+     <Sinup/> 
               <Profiles image={non1} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) was an American poet"  />
              
         <Profiles image={non2} name="The Boys in the Boat" description=" the Boys in the Boat is a non-fic2013. ."/>

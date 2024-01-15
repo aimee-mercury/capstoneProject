@@ -7,7 +7,7 @@ function Profiles({image, name, description}) {
    
     <div className="container-nonfiction">
         <div className="img">
-          <img src={image} alt="non1" width={500} height={500} />
+          <img src={image} alt="non1" width={450} height={500} />
         </div>
         <div className='owner'>
           <h2>{name} </h2>
