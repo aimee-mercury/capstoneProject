@@ -1,5 +1,5 @@
 
-// import './App.css'
+import './App.css'
 import Sinup from './Sinupproject/sinup'
 import Profiles from './profile/Profiles'
 import non1 from '../public/non1.jpg'
@@ -17,6 +17,7 @@ import Footer from './Footer/Footer'
 import Production from './Production/production'
 import Category from './Categories/Categories'
 import Newb from './News & Blog/newsb'
+import Supportus from './Support Us/supportus'
 
 
 
@@ -29,6 +30,7 @@ function App() {
     <Category/>
     <Production/>
     <Newb/>
+    <Supportus/>
      <Sinup/> 
         <Profiles image={non1} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) was an American poet"  />  
         <Profiles image={non2} name="The Boys in the Boat" description=" the Boys in the Boat is a non-fic2013. ."/>                                                                    

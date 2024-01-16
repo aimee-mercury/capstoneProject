@@ -1,18 +1,19 @@
 import React from 'react'
-import image from '../assets/florencia-viadana-1J8k0qqUfYY-unsplash (1) 1.jpg'
+import image from '../assets/unsplash_zvKx6ixUhWQ.jpg'
 import image1 from '../assets/clay-banks-GX8KBbVmC6c-unsplash 1.jpg'
 import image2 from '../assets/istockphoto-1495321240-2048x2048 1.jpg'
-import './supportus.css'
+import './Supportus.css'
 
 function Supportus() {
   return (
     <>
     <div className='supportus-section'>
+    <div className='supportus-heading'><h2>Support Us</h2></div>
       <div className='supportus-first-section'>
         <div className='support-image1'><img src={image} alt="" /></div>
-        <div>
-            <h3>Giving to your Wisdom Library</h3>
-            <p>Our collections are extraordinary. Your support can help us share them.</p>
+        <div className='supportus-heading-para'>
+            <div><h3>Giving to your Wisdom Library</h3></div>
+            <div><p>Our collections are extraordinary. <br /> Your support can help us share <br /> them.</p></div>
         </div>
       </div>
       <div className='supportus-second-section'>
