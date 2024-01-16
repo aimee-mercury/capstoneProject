@@ -1,0 +1,120 @@
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+font-size: 1.6rem;
+background: #C8AB8D;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+   
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 8vh;
+    background: #00000051;
+}
+.ae{
+  color: white;
+  margin-top: 20%;
+  margin-left:30px;
+}
+.ae2{
+margin-top: 30px;
+margin-left:30px;
+color: aliceblue;
+margin-bottom: 30px;
+}
+.ae1{
+  padding: 10px;
+  margin-left: 30px;
+ width:50vh;
+ border-radius: 20px;
+}
+.me{
+  background-image: url(../Screenshot\ 2024-01-12\ 000447.png);
+  background-size: cover;
+ background-repeat: no-repeat;
+}
+#me{
+    padding: 15px;
+    border: none;
+   border-radius: 30px;
+    color: white;
+    background: #C8AB8D;
+}
+.nav__brand{
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.nav__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:6rem;
+}
+.ai{
+    height: 40px;
+    width: 50px;
+    margin-left: 0;
+    border-left: 0;
+    border-radius: 50%;
+}
+.nav__toggler div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: #000000;
+    transition: 0.4s ease-in;
+}
+.nav__toggler{
+    cursor: pointer;
+    display: none;
+}
+
+ @media screen and (max-width: 768px) {
+    .nav__toggler {
+      display: block;
+    }
+    body{
+      background-size: 1100px;
+     background-repeat: no-repeat;
+    }
+    .nav__menu {
+      
+      position: fixed;
+      top: 7vh;
+      right: 0;
+      width: 50% ;
+      height: 93vh;
+      background: #0e0000;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: 0.5s ease-in;
+    }
+  }
+/* nav animation  */
+  .nav__active{
+    transform: translateX(0);
+  }  
+  /* toggle icon animation */
+  .toggle .line1{
+    transform: rotate(-45deg) translate(-4px,5px);
+  }
+  .toggle .line2{
+opacity: 0;
+  }
+  .toggle .line3{
+    transform: rotate(45deg) translate(-4px,-5px);
+  }
+ 

@@ -17,8 +17,8 @@ import Footer from './Footer/Footer'
 import Production from './Production/production'
 import Category from './Categories/Categories'
 import Newb from './News & Blog/newsb'
-
-
+import Navigation from './components/Navigation'
+import About from './components/About'
 
 
 function App() {
@@ -26,6 +26,8 @@ function App() {
 
   return (
     <>
+    <Navigation/>
+    <About/>
     <Category/>
     <Production/>
     <Newb/>
