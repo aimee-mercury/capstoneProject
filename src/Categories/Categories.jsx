@@ -8,7 +8,7 @@ import './Categories.css'
 function Category() {
   return (
     <>
-    <div className='category-heading'><h2>Category</h2></div>
+    <div className='category-heading' id='categories'><h2>Category</h2></div>
     <div className='bookcategories'>
       <div className='image-book-category-1'>
         <div><img src={stop} alt="" /></div>
