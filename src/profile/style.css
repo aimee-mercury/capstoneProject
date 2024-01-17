@@ -2,25 +2,13 @@ body{
     background-color: #C8AB8D;
 }
 .container-nonfiction{
-    display: inline block;
+    display: inline;
     padding: 2rem;
     background-color: antiquewhite;
     color: black;
     margin:7px;
 }
 
-/* .container-nonfiction{
-    display: inline-block;
-    justify-content: space-between;
-     margin-left: 200px; 
-  font-family:  sans-serif;
-  font-size: x-large;
-  padding-top: 70px;
- align-items: center;
- background-color: rgb(208,185,153); 
-  border : 5px groove rgb(29, 81, 97);
- margin-left: 500px;
-} */
  .owner{
     color: black;
  }
