@@ -39,15 +39,15 @@ function App() {
         <Profiles image={non1} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) was an American poet"  />  
         <Profiles image={non2} name="The Boys in the Boat" description=" the Boys in the Boat is a non-fic2013. ."/>                                                                    
         <Profiles image={non3} name="Other Slavery" description="This novel explores the complex relationships between slaves"  />                                                                                                                           
-        <Profiles image={non4} name="The Nonfiction Family Tree" description= " their family history.and methods for building." />
+        <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
         <Profiles image={non5} name="The Dairly of A young Girl" description= "This poignant and influential diary is the ."/>
         <Profiles image={non6} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) " />
         <Profiles image={non7} name="All things Bright and Beatiful"description= " recount his experiences with a wide" />
         <Profiles image={non8} name="in the Heart of the Sea" description= "the harrowing true story of the whal Moby-Dick." />
         <Profiles image={non10} name="The Bug of girl" description= " booklife of Maria Merian, a pioneering naturalist" />
-        <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
+        {/* <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
         <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
-         <button className='btnlibrary'>add new book</button>
+         <button className='btnlibrary'>add new book</button> */}
          <Support/>
     <Footer/>
        

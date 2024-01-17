@@ -10,7 +10,7 @@ function SinUp() {
        <div className='wrapper'> 
         <div className='sinup'>
         <form action='' method='POST'>
-              <h1>SignUp</h1><br/><br/><br/>
+               <h1>SignUp</h1><br/><br/><br/> 
               
               <div className='name'>
                 <div className='sinup2'>

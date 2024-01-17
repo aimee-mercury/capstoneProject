@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url('../assets/Group\ 2313.png');
+    background-repeat: no-repeat;
+}
+.supportus{
+    background-image: url('../assets/Group\ 2313.png');
+    background-repeat: no-repeat;
+   
+  }
+
