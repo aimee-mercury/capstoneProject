@@ -1,9 +1,12 @@
+ body{
+  color: #000;
+ }
  .about {
-    background-image: url('../assets/Screenshot\ 2024-01-12\ 114515.png');
+    background-image: url('../assets/Screenshot 2024-01-08 151854.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height:20vh; 
+    height:30vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +33,6 @@
   .next{
     margin-top: 50px;
     margin-left: 10%;
-    
   }
 
   .mission{
