@@ -20,6 +20,7 @@ import Newb from './News & Blog/newsb'
 import Supportus from './Support Us/supportus'
 import Navigation from './components/Navigation'
 import About from './components/About'
+<<<<<<< HEAD
 import Book from './component/book'
 import children0 from '../public/chidren4.png'
 import  Children1 from '../public/children1.jpeg'
@@ -31,6 +32,9 @@ import Children10 from '../public/children10.jpeg'
 import Children11 from '../public/children11.jpeg'
 import Children12 from '../public/children12.jpeg'
 import Login from './login/login'
+=======
+import Support from './Supportusform/Supportform'
+>>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
 
 
 
@@ -59,6 +63,7 @@ function App() {
         <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
         <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
          <button className='btnlibrary'>add new book</button>
+<<<<<<< HEAD
          <div className='cont'>
           <Book image={children0}  name= " activly book" description =" good night story of children "/>
           <Book image={ Children1} name = "just try one book " description= " for children "/>
@@ -77,6 +82,9 @@ function App() {
           <Book image={ Children11} name = "fily book " description= " funy girls "/>
           </div>
           {/* <Book image={ Children1} name = "just try one book " description= " for children "/> */}
+=======
+         <Support/>
+>>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
     <Footer/>
        
     </>
