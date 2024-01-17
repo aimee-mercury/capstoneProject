@@ -38,20 +38,20 @@ body{
     text-align: center;
     background-color: #D0B999;
 }
-.title-book-products-1 h3,
-.title-book-products-2 h3,
-.title-book-products-3 h3,
-.title-book-products-4 h3{
+.title-book-products-1 p,
+.title-book-products-2 p,
+.title-book-products-3 p,
+.title-book-products-4 p{
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 700;
 }
-.title-book-products-1 h3 a,
-.title-book-products-2 h3 a,
-.title-book-products-3 h3 a,
-.title-book-products-4 h3 a{
+.title-book-products-1 p a,
+.title-book-products-2 p a,
+.title-book-products-3 p a,
+.title-book-products-4 p a{
     font-size: 14px;
-    font-weight: 500;
-    color: #fff;
+    font-weight: 700;
+    color: #000;
 }
 .product-button{
     text-align: center;

@@ -57,9 +57,7 @@ function About() {
       </div>
 
 <div className='next'>
- <p>Welcome to Wisdom Library,A haven for knowledge seekers and a vibrant hub for the community.Our library stands as a testament to the transformative power of literature and learning.</p>
- <p>Immerse yourself in a curated collection of books,multimedia resources, and digital archives that cater to diverse interests and intellectual pursuits.</p>
-    
+ <p>Welcome to Wisdom Library,A haven for knowledge seekers and a vibrant hub for the community.Our library stands as a testament to the transformative power of literature and learning. <br /> Immerse yourself in a curated collection of books,multimedia resources, and digital archives that cater to diverse interests and intellectual pursuits.</p>   
 </div>
 
 <div className='mission' id='Mission'>

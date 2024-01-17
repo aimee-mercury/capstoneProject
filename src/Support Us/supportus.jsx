@@ -19,16 +19,16 @@ function Supportus() {
       <div className='supportus-second-section'>
         <div className='first-section'>
         <div className='support-image2'><img src={image1} alt="" /></div>
-        <div className='supportus-image-titles'>
-            <h3>Become a volunteer</h3>
-            <p>The Volunteer program offers you an <br /> opportunity to play an active role in <br /> supporting and promoting the  work <br /> of the Library.</p>
-        </div>
+        <div className='support-image3'><img src={image2} alt="" /></div>
         </div>
         <div className='second-section'>
-        <div className='support-image3'><img src={image2} alt="" /></div>
-        <div className='supportus-image-titles2'>
+         <div className='supportus-image-titles'>
+            <h3>Become a volunteer</h3>
+            <p>The Volunteer program offers you an opportunity to play an active role in supporting and promoting the  work of the Library.</p>
+         </div>
+         <div className='supportus-image-titles2'>
             <h3>Become a friend</h3>
-            <p>The Friends of the Wisdom Library <br /> share a passion for the Library <br /> and its collections.</p>
+            <p>The Friends of the Wisdom Library share a passion for the Library and its collections.</p>
         </div>
         </div>
       </div>

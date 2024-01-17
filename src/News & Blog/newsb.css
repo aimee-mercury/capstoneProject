@@ -44,7 +44,8 @@ body{
 .title-book-newb-3 h3,
 .title-book-newb-4 h3{
     font-size: 16px;
-    color: #fff;
+    font-weight: 700;
+    color: #000;
 }
 
 @media only screen and (max-width: 600px){
