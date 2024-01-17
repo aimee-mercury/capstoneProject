@@ -20,6 +20,7 @@ import Newb from './News & Blog/newsb'
 import Supportus from './Support Us/supportus'
 import Navigation from './components/Navigation'
 import About from './components/About'
+import Support from './Supportusform/Supportform'
 
 
 
@@ -46,7 +47,8 @@ function App() {
         <Profiles image={non10} name="The Bug of girl" description= " booklife of Maria Merian, a pioneering naturalist" />
         <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
         <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
-         <button className='btnlibrary'>add new book</button>  
+         <button className='btnlibrary'>add new book</button>
+         <Support/>
     <Footer/>
        
     </>
