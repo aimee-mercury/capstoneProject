@@ -1,0 +1,101 @@
+body{
+    background-color: #C8AB8D;
+    font-family: sans-serif;
+    color: black;
+ }
+ .app{
+ max-width: 60rem;
+ max-height: 80rem;
+ align-items: center;
+ margin-left:25%;
+ }
+   .loginContainer{
+     margin: 15%;
+     padding: 30px;
+    justify-content: center;
+   }
+   .please{
+     margin: 3cqi;
+     padding-bottom:1rem;
+    padding-left: 0.1rem;
+   }
+ .login-span-or{
+    color: #fff;
+ }
+  .google{
+     display: flex;
+    gap:2.5rem;
+     width: 63%;
+     height: 20%;
+     padding: 0.5rem;
+     border: 60px;
+     border-radius: .6rem;
+     margin-right: 20%;
+     padding-left: 14%;
+     color: #C8AB8D;
+     background-color: white;
+     font-weight: bold;
+  }
+  .loginbut{
+     margin-right: 30px;
+     border-radius: 50px;
+     height: 30px;
+     width: 70px;
+     color: #C8AB8D;
+     background-color: white;
+     font-weight: bold;
+  }
+  .singn{
+     margin: 20px;
+     border-radius: 50px;
+     height: 30px;
+     width: 70px;
+     color: #C8AB8D;
+     background-color: white;
+     font-weight: bold;
+  }
+  .login-form{
+    margin-top: 5%;
+  }
+  .login-span-2{
+     font-weight: 900;
+     color: white;
+     margin-left: 10px;
+     font-size: 18px;
+  }
+  .login-span-1{
+    margin-left: 30px;
+  }
+  .input-container .email{
+     width: 60%;
+     padding: 0.5rem;
+     border-radius: .6rem;
+  }
+  .input-container .password{
+     width: 60%;
+     padding: 0.5rem;
+     border-radius: .6rem;
+  }
+  .lines-or{
+    display: flex;
+    gap: 10%;
+    margin-top: 30px;
+  }
+  .lines-or p{
+    margin-top: 10px;
+    color: #fff;
+  }
+ .aimee{
+    width: 20%;
+    border-bottom: 2px solid #fff;
+ }
+ .aime{
+    width: 20%;
+    border-bottom: 2px solid #fff;
+ }
+ .add, .login-span-2{
+    margin-bottom: 10%;
+ }
+ .welcome{
+    font-size:x-large;
+ }

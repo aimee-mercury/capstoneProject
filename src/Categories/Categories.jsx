@@ -28,7 +28,7 @@ function Category() {
           <h3>Bibliograph</h3>
         </div>
       </div>
-      <div>
+      <div className='image-book-category-4'>
       <div className='image-book-category-4'><img src={tongue} alt="" /></div>
       <div className='title-book-category-4'>
           <h3>Academics</h3>

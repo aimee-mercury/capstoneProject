@@ -39,3 +39,32 @@ body{
     background-color: #D0B999;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px){
+.category-heading{
+    font-size: 16px;
+}
+.image-book-category-1 img,
+.image-book-category-2 img,
+.image-book-category-3 img,
+.image-book-category-4 img{
+    width: 18vw;
+    height: 18vh;
+    margin-top: 1%;
+}
+.image-book-category-1 h3,
+.image-book-category-2 h3,
+.image-book-category-3 h3,
+.image-book-category-4 h3{
+    font-size: 11px;
+}
+.title-book-category-1,
+.title-book-category-2,
+.title-book-category-3,
+.title-book-category-4{
+    width: 18vw;
+    height: 3vh;
+    background-color: #D0B999;
+    text-align: center;
+}
+}

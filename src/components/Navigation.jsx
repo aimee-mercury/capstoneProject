@@ -28,7 +28,7 @@ function Navigation() {
      <li className="nav__item"><a href="#categories" className='nav__link'>Collection </a></li>
      <li className="nav__item"><a href="#visit" className='nav__link'>visit Us</a></li>
      <li className="nav__item"><a href="#" className='nav__link'>Support Us</a></li>
-     <button className="" id="me"><a href="#" className=''>Log in</a></button>
+     <button className="" id="me">Log in</button>
 
     </ul>
 </AppProvider>
@@ -43,14 +43,16 @@ function Navigation() {
   </div>
    
   <div className='ae'>
-  
+  <div>
     <h1 className='ae2'>
 Wisdom Library space to <br />
 read, learn, grow and connect.
      </h1>
-    
+     </div>
+     <div className='ae2-para-input'>   
 <p className='ae2'>Open every day 9:00 am - 10:00 pm</p>
- <input type="text"  placeholder='Search a book' className='ae1'/><button className='ai'><IoSearch/></button>
+ <input type="text"  placeholder='Search a book' className='ae1'/><span className='ai'><IoSearch/></span>
+ </div>
   </div>
 
   {/* new section of about us  */}

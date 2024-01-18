@@ -1,5 +1,5 @@
 import React from 'react'
-// import Leslie from '../assets/Le.jpg'
+
 import "./style.css"
 function Profiles({image, name, description}) {
   return (

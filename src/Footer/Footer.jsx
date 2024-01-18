@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import background from '../assets/unsplash_BfLNqdbqycI.png'
 import soma from '../assets/soma 2.png'
 import unicef from '../assets/unicef 1.png'
 import mastercard from '../assets/mastercard 1.png'
@@ -18,9 +17,7 @@ import { FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <>
-    <div className='footer-container-background-image'style={{backgroundImage: `url(${background})`,
-    backgroundSize: "cover"
-  }}>
+    <div className='footer-container-background-image'>
     <div className='footer-partners-section'>
       <div className='footer-partners-logos'>
       <div className='footer-partners'>
@@ -71,8 +68,26 @@ function Footer() {
       <div className='twitter-icon'><a href="https://twitter.com/"> <FaTwitter /></a></div>
       <div className='linkedin-icon'><a href="https://www.linkedin.com/"> <FaLinkedin /></a></div>
     </div>
+    <div className='footer-nav'>
+      <div>
+        <a href="/">Home</a>
+      </div>
+      <div>
+        <a href="">
+         <p>About Us</p>
+        </a>
+      </div>
+      <div>
+        <a href="">Collection</a>
+      </div>
+      <div>
+        <a href="">Visit Us</a>
+      </div>
+      <div>
+        <a href="/supportus">Support Us</a>
+      </div>
+    </div>
     <div className='footer-line-copyright'>
-      <div className='footer-line'></div>
       <div className='footer-copyright'>
         <p>copyright <LuCopyright className='copyright-icon'/> wisdomlibrary. All rights reserved</p>
       </div>
