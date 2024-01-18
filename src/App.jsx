@@ -42,16 +42,45 @@ function App() {
         <Profiles image={non1} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) was an American poet"  />  
         <Profiles image={non2} name="The Boys in the Boat" description=" the Boys in the Boat is a non-fic2013. ."/>                                                                    
         <Profiles image={non3} name="Other Slavery" description="This novel explores the complex relationships between slaves"  />                                                                                                                           
-        <Profiles image={non4} name="The Nonfiction Family Tree" description= " their family history.and methods for building." />
+        <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
         <Profiles image={non5} name="The Dairly of A young Girl" description= "This poignant and influential diary is the ."/>
         <Profiles image={non6} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) " />
         <Profiles image={non7} name="All things Bright and Beatiful"description= " recount his experiences with a wide" />
         <Profiles image={non8} name="in the Heart of the Sea" description= "the harrowing true story of the whal Moby-Dick." />
         <Profiles image={non10} name="The Bug of girl" description= " booklife of Maria Merian, a pioneering naturalist" />
-        <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
+        {/* <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
         <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
+<<<<<<< HEAD
+         <button className='btnlibrary'>add new book</button> */}
+=======
          <button className='btnlibrary'>add new book</button>
+<<<<<<< HEAD
 n         <Support/>
+=======
+<<<<<<< HEAD
+         <div className='cont'>
+          <Book image={children0}  name= " activly book" description =" good night story of children "/>
+          <Book image={ Children1} name = "just try one book " description= " for children "/>
+          <Book image={ Children4} name = "three night kind " description= " fight for the night story "/>
+          </div>
+
+
+          <div className='cont1'>
+          <Book image={ Children2} name = "image of book " description= " just story of children"/>
+          <Book image={ Children6} name = "work book" description= " from work  we need funy stories to tell our kids"/>
+          <Book image={ Children8} name = "children " description= " go out to trip"/>
+          </div>
+          <div className='cont2'>
+          <Book image={ Children12} name = "brown a boutifull" description= " good girls "/>
+          <Book image={ Children10} name = "focus in library" description= " just readry"/>
+          <Book image={ Children11} name = "fily book " description= " funy girls "/>
+          </div>
+          {/* <Book image={ Children1} name = "just try one book " description= " for children "/> */}
+=======
+>>>>>>> 11eaa23125c8c8051ddaea48756061309018ec5f
+         <Support/>
+>>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
+>>>>>>> a0df23d95b7183590e9c7cfd1de9e82286b7a655
     <Footer/>
        
     </>
