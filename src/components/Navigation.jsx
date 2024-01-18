@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
 import './navigation.css';
-
+import { AppProvider } from '../booklist/book';
 import { IoSearch } from "react-icons/io5";
 
 
@@ -21,8 +21,8 @@ function Navigation() {
    <div >
    <nav className="nav">
     <img src="./Screenshot 2024-01-12 114515.png" alt="" className='ai' />
-
-    <ul className={active}>
+<AppProvider>
+<ul className={active}>
      <li className="nav__item"><a href="#" className='nav__link'>Home</a></li> 
      <li className="nav__item"><a href="#About" className='nav__link'>About Us </a></li>
      <li className="nav__item"><a href="#categories" className='nav__link'>Collection </a></li>
@@ -31,6 +31,8 @@ function Navigation() {
      <button className="" id="me"><a href="#" className=''>Log in</a></button>
 
     </ul>
+</AppProvider>
+    
 
     <div className={toggleIcon} onClick={navToggle}>
         <div className="line1"></div>

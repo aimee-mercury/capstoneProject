@@ -1,5 +1,4 @@
  .about {
-    background-image: url('../assets/Screenshot\ 2024-01-12\ 114515.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,8 +40,8 @@
   }
   
   .card {
-    max-width: 400px; /* Adjust as needed for the maximum width of each card */
-    margin: 20px; /* Adjust as needed for spacing between the cards */
+    max-width: 400px;
+    margin: 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
