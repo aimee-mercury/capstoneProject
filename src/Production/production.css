@@ -66,6 +66,11 @@ body{
     border-radius: 30px;
     font-size: 16px;
 }
+.product-button button:hover{
+    background-color: #D0B999;
+    color: #fff;
+    border: 2px solid #fff;
+}
 .product-button .arrow-icon{
     text-align: center;
 }

@@ -62,6 +62,12 @@ margin-bottom: 30px;
     border-radius: 30px;
     color: white;
     background: #C8AB8D;
+    font-weight: 700;
+}
+#me:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
 }
 .nav__brand{
     text-transform:uppercase;

@@ -23,7 +23,8 @@ import About from './components/About'
 import Support from './Supportusform/Supportform'
 import Login from './login/login'
 import Book from './component/book'
-
+import SinUp from './Sinupproject/sinup'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
 function App() {
@@ -31,14 +32,14 @@ function App() {
 
   return (
     <>
-
+  <Router>
     <Navigation/>
     <About/>
     <Category/>
     <Production/>
     <Newb/>
     <Supportus/>
-     <Sinup/>
+     {/* <Sinup/>
      <Login/>
         <Profiles image={non1} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) was an American poet"  />  
         <Profiles image={non2} name="The Boys in the Boat" description=" the Boys in the Boat is a non-fic2013. ."/>                                                                    
@@ -49,14 +50,14 @@ function App() {
         <Profiles image={non7} name="All things Bright and Beatiful"description= " recount his experiences with a wide" />
         <Profiles image={non8} name="in the Heart of the Sea" description= "the harrowing true story of the whal Moby-Dick." />
         <Profiles image={non10} name="The Bug of girl" description= " booklife of Maria Merian, a pioneering naturalist" />
-        {/* <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
-        <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
+        {/* <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " /> */}
+        {/* <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
 <<<<<<< HEAD
          <button className='btnlibrary'>add new book</button> */}
 
-         <button className='btnlibrary'>add new book</button>
+         {/* <button className='btnlibrary'>add new book</button>
          <Support/>
-         <Book/>
+         <Book/> */}
          {/* <div className='cont'>
           <Book image={children0}  name= " activly book" description =" good night story of children "/>
           <Book image={ Children1} name = "just try one book " description= " for children "/>
@@ -75,9 +76,16 @@ function App() {
           <Book image={ Children11} name = "fily book " description= " funy girls "/>
           </div> */}
           {/* <Book image={ Children1} name = "just try one book " description= " for children "/> */}
-    
-    <Footer/>
-       
+          <Footer/>
+    {/* 
+    <Routes>
+      <Route path='/signup' element={<SinUp/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/supportus' element={<Sinup/>}/>
+      <Route path='/visitus' element={<Visit Us/>}/>
+      <Route path='/dashboard' element={<Dashboard/>}/>
+    </Routes> */}
+    </Router>
     </>
   );
 }

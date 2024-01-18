@@ -2,6 +2,7 @@ import React from 'react'
 import image from '../assets/unsplash_zvKx6ixUhWQ.jpg'
 import image1 from '../assets/clay-banks-GX8KBbVmC6c-unsplash 1.jpg'
 import image2 from '../assets/istockphoto-1495321240-2048x2048 1.jpg'
+import { Link } from 'react-router-dom'
 import './Supportus.css'
 
 function Supportus() {
@@ -14,6 +15,9 @@ function Supportus() {
         <div className='supportus-heading-para'>
             <div><h3>Giving to your Wisdom Library</h3></div>
             <div><p>Our collections are extraordinary. <br /> Your support can help us share <br /> them.</p></div>
+            <div className='visitus-button'>
+            <Link to='/visitus'><button>Visit Us</button></Link>
+            </div>
         </div>
       </div>
       <div className='supportus-second-section'>
@@ -33,7 +37,7 @@ function Supportus() {
         </div>
       </div>
       <div className='supportus-button'>
-        <button>Support Us</button>
+      <Link to='/supportus'><button>Support Us</button></Link>
       </div>
     </div>
     </>

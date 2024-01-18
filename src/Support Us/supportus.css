@@ -57,6 +57,30 @@ body{
     width: 70vw;
     margin-left: 4%;
 }
+.visitus-button{
+    text-align: start;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+.visitus-button button{
+    width: 11vw;
+    height: 5vh;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.visitus-button button:hover{
+    color: #C8AB8D;
+    background-color: #fff;
+    border: none;
+}
+.second-section, .first-section{
+    display: flex;
+    gap: 5rem;
+}
 .supportus-button{
     text-align: center;
     margin-bottom: 3%;
@@ -69,6 +93,11 @@ body{
     font-weight: 700;
     border-radius: 30px;
     font-size: 16px;
+}
+.supportus-button button:hover{
+    background-color: #D0B999;
+    color: #fff;
+    border: 2px solid #fff;
 }
 .second-section, .first-section{
     display: flex;

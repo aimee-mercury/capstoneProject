@@ -1,12 +1,9 @@
 import React , {useState} from 'react';
-<<<<<<< HEAD
-import './navigation.css';                                                        
-=======
 import './navigation.css';
 import { AppProvider } from '../booklist/book';
->>>>>>> 4c2632a492afcd43281a64483bc0c33c607adbe2
 import { IoSearch } from "react-icons/io5";
 import logo from '../assets/1.jpg'
+import {Link} from 'react-router-dom'
 
 
 function Navigation() {
@@ -25,21 +22,15 @@ function Navigation() {
     <div className='me'> 
    <div >
    <nav className="nav">
-<<<<<<< HEAD
-   <img src={logo} alt="Our logo" className='ai'/>
-
-    <ul className={active}>
-=======
     <img src="./Screenshot 2024-01-12 114515.png" alt="" className='ai' />
 <AppProvider>
 <ul className={active}>
->>>>>>> 4c2632a492afcd43281a64483bc0c33c607adbe2
      <li className="nav__item"><a href="#" className='nav__link'>Home</a></li> 
      <li className="nav__item"><a href="#About" className='nav__link'>About Us </a></li>
      <li className="nav__item"><a href="#categories" className='nav__link'>Collection </a></li>
      <li className="nav__item"><a href="#visit" className='nav__link'>visit Us</a></li>
      <li className="nav__item"><a href="#" className='nav__link'>Support Us</a></li>
-     <button className="" id="me">Log in</button>
+     <Link to='/login'><button className="" id="me">Log in</button></Link>
 
     </ul>
 </AppProvider>
