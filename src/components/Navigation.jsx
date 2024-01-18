@@ -1,6 +1,7 @@
 import React , {useState} from 'react';
-import './navigation.css';
+import './navigation.css';                                                        
 import { IoSearch } from "react-icons/io5";
+import logo from '../assets/1.jpg'
 
 
 function Navigation() {
@@ -19,7 +20,7 @@ function Navigation() {
     <div className='me'> 
    <div >
    <nav className="nav">
-    <img src="./Screenshot 2024-01-12 114515.png" alt="" className='ai' />
+   <img src={logo} alt="Our logo" className='ai'/>
 
     <ul className={active}>
      <li className="nav__item"><a href="#" className='nav__link'>Home</a></li> 
@@ -48,7 +49,7 @@ read, learn, grow and connect.
      </div>
      <div className='ae2-para-input'>   
 <p className='ae2'>Open every day 9:00 am - 10:00 pm</p>
- <input type="text"  placeholder='Search a book' className='ae1'/><span className='ai'><IoSearch/></span>
+ <input type="text"  placeholder='Search a book' className='ae1'/><span className='ai'><IoSearch className='search-icon'/></span>
  </div>
   </div>
 

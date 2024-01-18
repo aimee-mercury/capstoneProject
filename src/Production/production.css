@@ -58,8 +58,9 @@ body{
     margin-bottom: 1%;
 }
 .product-button button{
-    width: 11vw;
+    width: 12vw;
     height: 5vh;
+    font-weight: 700;
     color: #C8AB8D;
     border: none;
     border-radius: 30px;

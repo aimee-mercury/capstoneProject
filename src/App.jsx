@@ -22,6 +22,7 @@ import Navigation from './components/Navigation'
 import About from './components/About'
 import Support from './Supportusform/Supportform'
 import Login from './login/login'
+import Book from './component/book'
 
 
 
@@ -52,13 +53,11 @@ function App() {
         <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
 <<<<<<< HEAD
          <button className='btnlibrary'>add new book</button> */}
-=======
+
          <button className='btnlibrary'>add new book</button>
-<<<<<<< HEAD
-n         <Support/>
-=======
-<<<<<<< HEAD
-         <div className='cont'>
+         <Support/>
+         <Book/>
+         {/* <div className='cont'>
           <Book image={children0}  name= " activly book" description =" good night story of children "/>
           <Book image={ Children1} name = "just try one book " description= " for children "/>
           <Book image={ Children4} name = "three night kind " description= " fight for the night story "/>
@@ -74,13 +73,9 @@ n         <Support/>
           <Book image={ Children12} name = "brown a boutifull" description= " good girls "/>
           <Book image={ Children10} name = "focus in library" description= " just readry"/>
           <Book image={ Children11} name = "fily book " description= " funy girls "/>
-          </div>
+          </div> */}
           {/* <Book image={ Children1} name = "just try one book " description= " for children "/> */}
-=======
->>>>>>> 11eaa23125c8c8051ddaea48756061309018ec5f
-         <Support/>
->>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
->>>>>>> a0df23d95b7183590e9c7cfd1de9e82286b7a655
+    
     <Footer/>
        
     </>

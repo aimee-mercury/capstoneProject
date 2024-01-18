@@ -73,11 +73,15 @@ margin-bottom: 30px;
     gap:6rem;
 }
 .ai{
-    height: 50px;
-    width: 53px;
+    height: 49px;
+    width: 50px;
     margin-left: 0;
     border-left: 0;
     border-radius: 50%;
+}
+.search-icon{
+  color: #000;
+  font-size: 24px;
 }
 .nav__toggler div{
     width: 2.5rem;
