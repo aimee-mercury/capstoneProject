@@ -20,21 +20,8 @@ import Newb from './News & Blog/newsb'
 import Supportus from './Support Us/supportus'
 import Navigation from './components/Navigation'
 import About from './components/About'
-<<<<<<< HEAD
-import Book from './component/book'
-import children0 from '../public/chidren4.png'
-import  Children1 from '../public/children1.jpeg'
-import Children2 from '../public/children2.jpeg'
-import Children4 from '../public/children0.jpeg'
-import Children6 from '../public/children6.jpeg'
-import Children8 from '../public/children8.jpeg'
-import Children10 from '../public/children10.jpeg'
-import Children11 from '../public/children11.jpeg'
-import Children12 from '../public/children12.jpeg'
-import Login from './login/login'
-=======
 import Support from './Supportusform/Supportform'
->>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
+import Login from './login/login'
 
 
 
@@ -43,6 +30,7 @@ function App() {
 
   return (
     <>
+
     <Navigation/>
     <About/>
     <Category/>
@@ -63,28 +51,7 @@ function App() {
         <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
         <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
          <button className='btnlibrary'>add new book</button>
-<<<<<<< HEAD
-         <div className='cont'>
-          <Book image={children0}  name= " activly book" description =" good night story of children "/>
-          <Book image={ Children1} name = "just try one book " description= " for children "/>
-          <Book image={ Children4} name = "three night kind " description= " fight for the night story "/>
-          </div>
-
-
-          <div className='cont1'>
-          <Book image={ Children2} name = "image of book " description= " just story of children"/>
-          <Book image={ Children6} name = "work book" description= " from work  we need funy stories to tell our kids"/>
-          <Book image={ Children8} name = "children " description= " go out to trip"/>
-          </div>
-          <div className='cont2'>
-          <Book image={ Children12} name = "brown a boutifull" description= " good girls "/>
-          <Book image={ Children10} name = "focus in library" description= " just readry"/>
-          <Book image={ Children11} name = "fily book " description= " funy girls "/>
-          </div>
-          {/* <Book image={ Children1} name = "just try one book " description= " for children "/> */}
-=======
-         <Support/>
->>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
+n         <Support/>
     <Footer/>
        
     </>
