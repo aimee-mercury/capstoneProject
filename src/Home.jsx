@@ -5,12 +5,12 @@ import Newb from './News & Blog/newsb'
 import Production from './Production/production'
 import Category from './Categories/Categories'
 import About from './components/About'
-import Home from './components/Home'
+import Hom from './components/Hom'
 
 function Home() {
   return (
     <>
-    <Home/>
+    <Hom/>
     <About/>
     <Category/>
     <Production/>
