@@ -1,7 +1,9 @@
 import React , {useState} from 'react';
 import './navigation.css';
-
+import { AppProvider } from '../booklist/book';
 import { IoSearch } from "react-icons/io5";
+import logo from '../assets/1.jpg'
+import {Link} from 'react-router-dom'
 
 
 function Navigation() {
@@ -21,16 +23,18 @@ function Navigation() {
    <div >
    <nav className="nav">
     <img src="./Screenshot 2024-01-12 114515.png" alt="" className='ai' />
-
-    <ul className={active}>
+<AppProvider>
+<ul className={active}>
      <li className="nav__item"><a href="#" className='nav__link'>Home</a></li> 
      <li className="nav__item"><a href="#About" className='nav__link'>About Us </a></li>
      <li className="nav__item"><a href="#categories" className='nav__link'>Collection </a></li>
      <li className="nav__item"><a href="#visit" className='nav__link'>visit Us</a></li>
      <li className="nav__item"><a href="#" className='nav__link'>Support Us</a></li>
-     <button className="" id="me"><a href="#" className=''>Log in</a></button>
+     <Link to='/login'><button className="" id="me">Log in</button></Link>
 
     </ul>
+</AppProvider>
+    
 
     <div className={toggleIcon} onClick={navToggle}>
         <div className="line1"></div>
@@ -41,14 +45,16 @@ function Navigation() {
   </div>
    
   <div className='ae'>
-  
+  <div>
     <h1 className='ae2'>
 Wisdom Library space to <br />
 read, learn, grow and connect.
      </h1>
-    
+     </div>
+     <div className='ae2-para-input'>   
 <p className='ae2'>Open every day 9:00 am - 10:00 pm</p>
- <input type="text"  placeholder='Search a book' className='ae1'/><button className='ai'><IoSearch/></button>
+ <input type="text"  placeholder='Search a book' className='ae1'/><span className='ai'><IoSearch className='search-icon'/></span>
+ </div>
   </div>
 
   {/* new section of about us  */}

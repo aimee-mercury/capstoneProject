@@ -1,5 +1,6 @@
 import React from 'react'
 import './sinup.css'
+import Footer from '../Footer/Footer'
 
 function SinUp() {
   return (
@@ -45,13 +46,12 @@ function SinUp() {
             <div className="register-link">
                 <p className='sinup6'>Already have an account?<a href="login" >Login In Here</a></p>
                 </div>
-  </div>
-            </form>
-           
-            
+                </div>
+            </form>   
         </div>
-    </div>  
+        </div>  
     </div>
+    <Footer/>
     </>
   )
 }

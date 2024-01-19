@@ -22,36 +22,52 @@ a{
     align-items: center;
     justify-content:space-around;
     height: 8vh;
+    color: white;
     background: #00000051;
 }
 .ae{
+  display: flex;
+  align-items: center;
   color: white;
-  margin-top: 20%;
-  margin-left:30px;
+  flex-direction: column;
+  padding: 15rem;
+  margin-right: 30%;
 }
 .ae2{
 margin-top: 30px;
-margin-left:30px;
 color: aliceblue;
 margin-bottom: 30px;
 }
+.ae2-para-input{
+  margin-right: 8.5rem;
+}
 .ae1{
   padding: 10px;
-  margin-left: 30px;
- width:50vh;
- border-radius: 20px;
+  width: 24vw;
+  border-radius: 20px;
 }
 .me{
-  background-image: url(../Screenshot\ 2024-01-12\ 000447.png);
-  background-size: cover;
- background-repeat: no-repeat;
+    background-image: url(../Screenshot\ 2024-01-12\ 000447.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 90vh;
 }
 #me{
-    padding: 15px;
+    margin-left: 10rem;
+    width: 70px;
+    height: 37px;
     border: none;
-   border-radius: 30px;
+    border-radius: 30px;
     color: white;
     background: #C8AB8D;
+    font-weight: 700;
+}
+#me:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
 }
 .nav__brand{
     text-transform:uppercase;
@@ -64,11 +80,15 @@ margin-bottom: 30px;
     gap:6rem;
 }
 .ai{
-    height: 40px;
+    height: 49px;
     width: 50px;
     margin-left: 0;
     border-left: 0;
     border-radius: 50%;
+}
+.search-icon{
+  color: #000;
+  font-size: 24px;
 }
 .nav__toggler div{
     width: 2.5rem;

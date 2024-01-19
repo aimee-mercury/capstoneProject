@@ -1,5 +1,5 @@
-
 import './App.css'
+<<<<<<< HEAD
 import Sinup from './Sinupproject/sinup'
 import Profiles from './profile/Profiles'
 import non1 from '../public/non1.jpg'
@@ -36,6 +36,13 @@ import Login from './login/login'
 import Support from './Supportusform/Supportform'
 // >>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
 
+=======
+import SinUp from './Sinupproject/sinup';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Login from './login/login';
+import Support from './Supportusform/Supportform';
+import Home from './home';
+>>>>>>> fc2e91551f1bf86461cb6e2548cb5a29c7f339c4
 
 
 function App() {
@@ -43,6 +50,7 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
     <Navigation/>
     <About/>
     <Category/>
@@ -92,6 +100,18 @@ function App() {
 {/* >>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f */}
     <Footer/>
        
+=======
+  <Router>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/signup' element={<SinUp/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/supportus' element={<Support/>}/>
+      {/* <Route path='/visitus' element={<VisitUs/>}/>
+      <Route path='/dashboard' element={<Dashboard/>}/> */}
+    </Routes>
+    </Router>
+>>>>>>> fc2e91551f1bf86461cb6e2548cb5a29c7f339c4
     </>
   );
 }
