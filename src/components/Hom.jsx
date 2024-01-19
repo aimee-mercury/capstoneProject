@@ -10,8 +10,7 @@ function Home() {
      <div className='ae'>
       
       <h1 className='we'>
-        Wisdom Library space to <br />
-        read, learn, grow and connect.
+        Wisdom Library space <br /> to <span>re</span>ad, <span>le</span>arn, <span>gr</span>ow and <br /> <span>co</span>nnect.
       </h1>
       <p className='we1'>Open every day 9:00 am - 10:00 pm</p>
       

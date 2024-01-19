@@ -10,20 +10,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Categories from './Categories/Categories';
 import Supportus from './Support Us/supportus';
-<<<<<<< HEAD
-
-=======
->>>>>>> c4c71bb8a41b350c8ba32aecbde738ac48572cb1
 function App() {
  
 
   return (
     <>
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> c4c71bb8a41b350c8ba32aecbde738ac48572cb1
   <Router>
     <Routes>
       <Route path='/' element={<Home/>}/>

@@ -14,9 +14,9 @@
   }
   
   .about h1 {
-    margin-top: 19rem;
+    margin-top: 19.3rem;
     text-align: center;
-    color: white;
+    color: #D0B999;
   }
   
   .number-container {
@@ -35,6 +35,7 @@
     font-size: 22px;
     margin-top: 2.5rem;
     margin-left: 10%;
+    width: 82vw;
   }
 
   .mission{
