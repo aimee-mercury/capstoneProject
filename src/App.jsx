@@ -25,6 +25,7 @@ import Login from './login/login'
 import Book from './component/book'
 import SinUp from './Sinupproject/sinup'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './components/Home'
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
   return (
     <>
   <Router>
-    <Navigation/>
+    <Home/>
     <About/>
     <Category/>
     <Production/>
