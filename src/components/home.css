@@ -1,0 +1,96 @@
+*, *::after, *::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.ae {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../Screenshot\ 2024-01-12\ 000447.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 20px;
+}
+
+.search-icon {
+  color: #000;
+  font-size: 24px;
+}
+
+.ae2 {
+  margin-top: 30px;
+  color: aliceblue;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.ae2-para-input {
+  margin-right: 1.5rem; 
+}
+
+.ae1 {
+  padding: 10px;
+  width: 80%; 
+  max-width: 450px; 
+  margin-top: 15px;
+  border-radius: 20px;
+  outline: none;
+  color: #b47431;
+}
+
+.we {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 400px;
+}
+
+.we1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-right: 400px;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 1.5rem; 
+  margin-right: 400px;
+}
+
+.custom-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; 
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  color: #b47431;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+
+
+
+
