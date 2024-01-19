@@ -15,10 +15,10 @@ function Support() {
  <div className='supportus'>
 
   <h2>Support Us</h2>
-  <p><br/><CiLocationOn />Kigali - Rwanda</p>
-  <p><IoIosCall />+250-782-467-899</p>
-  <p><MdOutlineMail />readrwa@gmail.com</p>
-  <button>Back<TbArrowBack /></button>
+  <p className="kigali"><br/><CiLocationOn className="location" />Kigali - Rwanda</p>
+  <p className="phone"><IoIosCall className="pho" />+250-782-467-899</p>
+  <p className="email"><MdOutlineMail className="em" />readrwa@gmail.com</p>
+  <button className="btnsupport">Back<TbArrowBack className="bu" /></button>
 
  </div>
  <div className="supportus2">
@@ -29,17 +29,17 @@ function Support() {
             <input type='text' required className='supportfirst2'></input>
             </div>
             <div className='supportsecond'>
-            <label >SurName</label><br/><br/>
+            <label className="support-surname-label">SurName</label><br/><br/>
             <input type='text' required className='supportsecond3'></input>
             </div>
             </div> 
             <div className='supportthird'>
-              <label className='support-third-label'>email</label><br/><br/>
+              <label className='support-third-label'>Email</label><br/><br/>
             <input type='text' required className='supportfirst4'></input>
             </div>
             <div className='supportfouth'>
               <label className='support-fouth-label'>Method of payments</label><br/><br/>
-      <select name="" id="">
+      <select name="" id="see">
       <option value="">credit card</option>
       <option value="">you</option>
       <option value="">he</option>
@@ -49,8 +49,14 @@ function Support() {
      </select>
      <div className='supportfith'>
               <label className='support-fith-label'>Leave A Message</label><br/><br/>
+<<<<<<< HEAD
+              <textarea className="tex"></textarea>
+              <button className="btnsupport">Sumbit</button>
+           
+=======
               <textarea></textarea>
               <button>Sumbit</button>
+>>>>>>> fc2e91551f1bf86461cb6e2548cb5a29c7f339c4
             </div>
             </div>
             </div>
