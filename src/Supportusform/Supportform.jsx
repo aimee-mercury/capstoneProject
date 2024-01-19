@@ -5,11 +5,11 @@ import { MdOutlineMail } from "react-icons/md";
 import { TbArrowBack } from "react-icons/tb";
 import React from 'react'
 import './Supportform.css'
+import Footer from "../Footer/Footer";
 
 
 function Support() {
-  return (
-    
+  return (   
 <>
 <div className='container'>
  <div className='supportus'>
@@ -51,20 +51,11 @@ function Support() {
               <label className='support-fith-label'>Leave A Message</label><br/><br/>
               <textarea></textarea>
               <button>Sumbit</button>
-           
             </div>
-
             </div>
-            
- </div>
-
-
+            </div>
 </div>
-
-
-
-
-
+<Footer/>
 </>
 
   )

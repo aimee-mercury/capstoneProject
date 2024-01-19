@@ -2,10 +2,12 @@ import React from 'react'
 import './Login.css'
 import { FcGoogle } from "react-icons/fc";
 import { TbArrowBack } from "react-icons/tb";
+import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 function Login() {
   return (
+    <>
     <div>
-
     <div className='app'>
         <div className='loginContainer'>
             <h1 className='welcome'>WELCOME TO WISDOM LIBRARY</h1>
@@ -29,10 +31,12 @@ function Login() {
                 <button className='loginbut'> Login</button>
                 <button className='singn'>Back <TbArrowBack /></button>
                 </div>
-                    <p  className='add'>Don't have an account?<span className='login-span-2'>Sign up</span></p>
+                    <p  className='add'>Don't have an account?<Link to='/signup' className='login-span-2'>Sign up</Link></p>
                 </div>
                 </div>
-    </div>
+                </div>
+                <Footer/>
+   </>
   )
 }
 
