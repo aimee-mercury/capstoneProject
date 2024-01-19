@@ -49,6 +49,7 @@ function Support() {
      </select>
      <div className='supportfith'>
               <label className='support-fith-label'>Leave A Message</label><br/><br/>
+<<<<<<< HEAD
 
               <textarea className="tex"></textarea>
               <button className="btnsupport">Sumbit</button>
@@ -57,6 +58,10 @@ function Support() {
               <textarea></textarea>
               <button>Sumbit</button>
               
+=======
+              <textarea></textarea>
+              <button>Sumbit</button>
+>>>>>>> cd0312bdf04923032898afa4ca669cb28f0fc806
             </div>
             </div>
             </div>

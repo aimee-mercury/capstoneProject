@@ -8,7 +8,7 @@ import './Supportus.css'
 function Supportus() {
   return (
     <>
-    <div className='supportus-section'>
+    <div className='supportus-section' id='support'>
     <div className='supportus-heading'><h2>Support Us</h2></div>
       <div className='supportus-first-section'>
         <div className='support-image1'><img src={image} alt="" /></div>

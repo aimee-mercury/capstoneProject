@@ -3,11 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    width: 100%;
-    background-color: #C8AB8D;
-    font-family: sans-serif;
-}
 .products-heading{
     text-align: center;
     padding: 1%;
