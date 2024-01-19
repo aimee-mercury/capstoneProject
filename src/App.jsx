@@ -1,5 +1,5 @@
-
 import './App.css'
+<<<<<<< HEAD
 import Sinup from './Sinupproject/sinup'
 import Profiles from './profile/Profiles'
 import non1 from '../public/non1.jpg'
@@ -20,12 +20,38 @@ import Newb from './News & Blog/newsb'
 import Supportus from './Support Us/supportus'
 import Navigation from './components/Navigation'
 import About from './components/About'
-import Support from './Supportusform/Supportform'
-import Login from './login/login'
+// <<<<<<< HEAD
 import Book from './component/book'
-import SinUp from './Sinupproject/sinup'
+import children0 from '../public/chidren4.png'
+import  Children1 from '../public/children1.jpeg'
+import Children2 from '../public/children2.jpeg'
+import Children4 from '../public/children0.jpeg'
+import Children6 from '../public/children6.jpeg'
+import Children8 from '../public/children8.jpeg'
+import Children10 from '../public/children10.jpeg'
+import Children11 from '../public/children11.jpeg'
+import Children12 from '../public/children12.jpeg'
+import Login from './login/login'
+// =======
+import Support from './Supportusform/Supportform'
+// >>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
+
+=======
+import SinUp from './Sinupproject/sinup';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+<<<<<<< HEAD
 import Home from './components/Home'
+=======
+import Login from './login/login';
+import Support from './Supportusform/Supportform';
+import Home from './home';
+<<<<<<< HEAD
+import Nonfiction from './Non-Fiction/Nonfiction';
+import Fiction from './Fiction/Fiction';
+=======
+>>>>>>> fc2e91551f1bf86461cb6e2548cb5a29c7f339c4
+>>>>>>> c125116ea5931a53d33dc9e9589eefc98640608a
+>>>>>>> e8c8c8eb6286cf3673e4a20b3d6717771f2f6598
 
 
 function App() {
@@ -33,15 +59,21 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
   <Router>
     <Home/>
+=======
+<<<<<<< HEAD
+    <Navigation/>
+>>>>>>> e8c8c8eb6286cf3673e4a20b3d6717771f2f6598
     <About/>
     <Category/>
     <Production/>
     <Newb/>
     <Supportus/>
-     {/* <Sinup/>
+     <Sinup/>
      <Login/>
+                   <h1 className='non'>Non Fiction Books</h1>
         <Profiles image={non1} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) was an American poet"  />  
         <Profiles image={non2} name="The Boys in the Boat" description=" the Boys in the Boat is a non-fic2013. ."/>                                                                    
         <Profiles image={non3} name="Other Slavery" description="This novel explores the complex relationships between slaves"  />                                                                                                                           
@@ -50,16 +82,15 @@ function App() {
         <Profiles image={non6} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) " />
         <Profiles image={non7} name="All things Bright and Beatiful"description= " recount his experiences with a wide" />
         <Profiles image={non8} name="in the Heart of the Sea" description= "the harrowing true story of the whal Moby-Dick." />
-        <Profiles image={non10} name="The Bug of girl" description= " booklife of Maria Merian, a pioneering naturalist" />
-        {/* <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " /> */}
-        {/* <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
+        {/* <Profiles image={non10} name="The Bug of girl" description= " booklife of Maria Merian, a pioneering naturalist" /> */}
+        {/* <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
+        <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
 <<<<<<< HEAD
          <button className='btnlibrary'>add new book</button> */}
-
-         {/* <button className='btnlibrary'>add new book</button>
-         <Support/>
-         <Book/> */}
-         {/* <div className='cont'>
+{/* ======= */}
+         {/* <button className='btnlibrary'>add new book</button> */}
+{/* <<<<<<< HEAD */}
+         <div className='cont'>
           <Book image={children0}  name= " activly book" description =" good night story of children "/>
           <Book image={ Children1} name = "just try one book " description= " for children "/>
           <Book image={ Children4} name = "three night kind " description= " fight for the night story "/>
@@ -75,18 +106,28 @@ function App() {
           <Book image={ Children12} name = "brown a boutifull" description= " good girls "/>
           <Book image={ Children10} name = "focus in library" description= " just readry"/>
           <Book image={ Children11} name = "fily book " description= " funy girls "/>
-          </div> */}
+          </div>
           {/* <Book image={ Children1} name = "just try one book " description= " for children "/> */}
-          <Footer/>
-    {/* 
+{/* ======= */}
+{/* >>>>>>> 11eaa23125c8c8051ddaea48756061309018ec5f */}
+         <Support/>
+{/* >>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f */}
+    <Footer/>
+       
+=======
+  <Router>
     <Routes>
+      <Route path='/' element={<Home/>}/>
       <Route path='/signup' element={<SinUp/>}/>
       <Route path='/login' element={<Login/>}/>
-      <Route path='/supportus' element={<Sinup/>}/>
-      <Route path='/visitus' element={<Visit Us/>}/>
-      <Route path='/dashboard' element={<Dashboard/>}/>
-    </Routes> */}
+      <Route path='/supportus' element={<Support/>}/>
+      <Route path='/non-fiction' element={<Nonfiction/>}/>
+      <Route path='/fiction' element={<Fiction/>}/>
+      {/* <Route path='/visitus' element={<VisitUs/>}/>
+      <Route path='/dashboard' element={<Dashboard/>}/> */}
+    </Routes>
     </Router>
+>>>>>>> fc2e91551f1bf86461cb6e2548cb5a29c7f339c4
     </>
   );
 }
