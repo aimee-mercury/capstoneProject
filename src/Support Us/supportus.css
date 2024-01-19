@@ -32,16 +32,21 @@ body{
 }
 .supportus-first-section{
     display: flex;
-    align-items: center;
+    align-content: center;
     padding: 1%;
 }
 .supportus-first-section div h3{
-    font-size: 26px;
-    padding: 30px;
+    font-size: 24px;
+    padding: 15px;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+
 }
 .supportus-first-section div p{
     font-size: 18px;
-    padding: 30px;
+    padding: 15px;
+    margin-top: rem;
+    margin-left: 2.5rem;
 }
 .supportus-heading-para{
     width: 30vw;
@@ -60,7 +65,8 @@ body{
 .visitus-button{
     text-align: start;
     padding: 1rem;
-    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
 }
 .visitus-button button{
     width: 11vw;

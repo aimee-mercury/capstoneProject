@@ -39,6 +39,9 @@ body{
     background-color: #D0B999;
     text-align: center;
 }
+.categories-link{
+    color: #000;
+}
 
 @media only screen and (max-width: 600px){
 .category-heading{

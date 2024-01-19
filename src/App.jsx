@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Login from './login/login';
 import Support from './Supportusform/Supportform';
 import Home from './home';
+import Nonfiction from './Non-Fiction/Nonfiction';
+import Fiction from './Fiction/Fiction';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Route path='/signup' element={<SinUp/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/supportus' element={<Support/>}/>
+      <Route path='/non-fiction' element={<Nonfiction/>}/>
+      <Route path='/fiction' element={<Fiction/>}/>
       {/* <Route path='/visitus' element={<VisitUs/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/> */}
     </Routes>
