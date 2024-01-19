@@ -20,7 +20,7 @@ import Newb from './News & Blog/newsb'
 import Supportus from './Support Us/supportus'
 import Navigation from './components/Navigation'
 import About from './components/About'
-<<<<<<< HEAD
+// <<<<<<< HEAD
 import Book from './component/book'
 import children0 from '../public/chidren4.png'
 import  Children1 from '../public/children1.jpeg'
@@ -32,9 +32,9 @@ import Children10 from '../public/children10.jpeg'
 import Children11 from '../public/children11.jpeg'
 import Children12 from '../public/children12.jpeg'
 import Login from './login/login'
-=======
+// =======
 import Support from './Supportusform/Supportform'
->>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
+// >>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
 
 
 
@@ -51,6 +51,7 @@ function App() {
     <Supportus/>
      <Sinup/>
      <Login/>
+                   <h1 className='non'>Non Fiction Books</h1>
         <Profiles image={non1} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) was an American poet"  />  
         <Profiles image={non2} name="The Boys in the Boat" description=" the Boys in the Boat is a non-fic2013. ."/>                                                                    
         <Profiles image={non3} name="Other Slavery" description="This novel explores the complex relationships between slaves"  />                                                                                                                           
@@ -59,14 +60,14 @@ function App() {
         <Profiles image={non6} name="Maya Angelou" description= "Maya Angelou (April 4, 1928 – May 28, 2014) " />
         <Profiles image={non7} name="All things Bright and Beatiful"description= " recount his experiences with a wide" />
         <Profiles image={non8} name="in the Heart of the Sea" description= "the harrowing true story of the whal Moby-Dick." />
-        <Profiles image={non10} name="The Bug of girl" description= " booklife of Maria Merian, a pioneering naturalist" />
+        {/* <Profiles image={non10} name="The Bug of girl" description= " booklife of Maria Merian, a pioneering naturalist" /> */}
         {/* <Profiles image={non11} name="Ghost Of Tsunami" description= " is a recent or niche publication, I recommend checking with local " />
         <Profiles image={non12} name="Becomming of Michelle Obama" description= " from her childhood in the South Side " />
 <<<<<<< HEAD
          <button className='btnlibrary'>add new book</button> */}
-=======
-         <button className='btnlibrary'>add new book</button>
-<<<<<<< HEAD
+{/* ======= */}
+         {/* <button className='btnlibrary'>add new book</button> */}
+{/* <<<<<<< HEAD */}
          <div className='cont'>
           <Book image={children0}  name= " activly book" description =" good night story of children "/>
           <Book image={ Children1} name = "just try one book " description= " for children "/>
@@ -85,10 +86,10 @@ function App() {
           <Book image={ Children11} name = "fily book " description= " funy girls "/>
           </div>
           {/* <Book image={ Children1} name = "just try one book " description= " for children "/> */}
-=======
->>>>>>> 11eaa23125c8c8051ddaea48756061309018ec5f
+{/* ======= */}
+{/* >>>>>>> 11eaa23125c8c8051ddaea48756061309018ec5f */}
          <Support/>
->>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f
+{/* >>>>>>> 53cb77affbb500e0c2b7cdc95f7fe0427cd0100f */}
     <Footer/>
        
     </>
