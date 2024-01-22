@@ -1,7 +1,7 @@
 
 import Login from './login/Login';
 import Support from './Supportusform/Supportform';
-import Home from './home';
+import Home from './Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Category from './Categories/Categories';
@@ -23,7 +23,6 @@ function App() {
       <Route path='/signup' element={< SinUp/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/supportus' element={<Support/>}/>
-      <Route path='/visit' element={<Visit/>}/>
       <Route path='/visitus' element={<Visit/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
     </Routes>
