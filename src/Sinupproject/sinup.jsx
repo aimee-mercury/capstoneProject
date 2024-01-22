@@ -1,17 +1,17 @@
 import React from 'react'
 import './sinup.css'
 import Footer from '../Footer/Footer'
+import Navigation from '../components/Navigation'
 
 function SinUp() {
   return (
     <>
-      
-     
-     <div className='container'>
+     <Navigation/>
+     <div className='signup-container'>
        <div className='wrapper'> 
         <div className='sinup'>
         <form action='' method='POST'>
-               <h1>SignUp</h1><br/><br/><br/> 
+               <h1 className='signup-heading'>SignUp</h1><br/><br />
               
               <div className='name'>
                 <div className='sinup2'>
@@ -49,9 +49,9 @@ function SinUp() {
                 </div>
             </form>   
         </div>
-        </div>  
+        </div> 
     </div>
-    <Footer/>
+    <Footer/> 
     </>
   )
 }

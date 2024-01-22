@@ -1,6 +1,4 @@
-body{
-    background-color: #C8AB8D;
-}
+
 .container-nonfiction{
     display: inline;
     padding: 2rem;
@@ -15,6 +13,10 @@ body{
  .btnlibrary{
     justify-content: center;
 
+ }
+ .non{
+   margin-left: 40%;
+   padding-top: -2rem;
  }
  
 

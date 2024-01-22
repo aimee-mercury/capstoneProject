@@ -1,4 +1,9 @@
-body{
+
+*{
+   padding: 0;
+   margin: 0;
+}
+   body{
     background-color: #C8AB8D;
     font-family: sans-serif;
     color: black;
@@ -11,15 +16,21 @@ body{
  padding-bottom: 4rem;
  }
    .loginContainer{
-     margin: 15%;
+     margin-top: 10%;
      padding: 30px;
+     margin-bottom: 0;
     justify-content: center;
    }
    .please{
+<<<<<<< HEAD
      margin: 0.1cqi;
      padding-bottom:1rem;
      padding-top: 1rem;
     
+=======
+    margin-top: 20px;
+    margin-bottom: 0;
+>>>>>>> 82b38aba08dfc9ef09b528d88e483ba422adb5d6
    }
  .login-span-or{
     color: #fff;
@@ -49,6 +60,7 @@ body{
      font-weight: bold;
   }
   .singn{
+   text-decoration: none;
      margin: 20px;
      border-radius: 50px;
       border: none;
@@ -57,6 +69,10 @@ body{
      color: #C8AB8D;
      background-color: white;
      font-weight: bold;
+  }
+  button a{
+   text-decoration: none;
+   color: #C8AB8D;
   }
   .login-form{
     margin-top: 5%;
@@ -71,13 +87,12 @@ body{
     margin-left: 30px;
   }
   .input-container .email{
-     width: 60%;
-     padding: 0.5rem;
+   margin-top: 0;
+   padding: 0.5rem; 
      border-radius: .6rem;
      padding-bottom: 3rem;
   }
   .input-container .password{
-     width: 60%;
      padding: 0.5rem;
      border-radius: .6rem;
      padding-bottom: 3rem;
@@ -103,7 +118,16 @@ body{
     margin-bottom: 10%;
  } */
  .welcome{
+<<<<<<< HEAD
     font-size:larger;
     margin: 2rem;
     padding-top: 5rem;
+=======
+    font-size:x-large;
+ }
+ a button{
+   text-decoration: none;
+   color: #C8AB8D;
+
+>>>>>>> 82b38aba08dfc9ef09b528d88e483ba422adb5d6
  }

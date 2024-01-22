@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    background-color: #C8AB8D;
+    font-family: sans-serif;
+}
 .products-heading{
     text-align: center;
     padding: 1%;
@@ -15,7 +20,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.5%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 .image-book-products-1 img,
 .image-book-products-2 img,
@@ -24,49 +29,48 @@
     width: 15vw;
     height: 40vh;
 }
-.title-book-product-1,
-.title-book-product-2,
-.title-book-product-3,
-.title-book-product-4{
+.title-book-products-1,
+.title-book-products-2,
+.title-book-products-3,
+.title-book-products-4{
     width: 15vw;
-    height: 15vh;
+    height: 4vh;
     text-align: center;
     background-color: #D0B999;
 }
-.title-book-product-1 p,
-.title-book-product-2 p,
-.title-book-product-3 p,
-.title-book-product-4 p{
-    font-size: 17px;
-}
-.title-book-product-1 p a,
-.title-book-product-2 p a,
-.title-book-product-3 p a,
-.title-book-product-4 p a{
+.title-book-products-1 p,
+.title-book-products-2 p,
+.title-book-products-3 p,
+.title-book-products-4 p{
     font-size: 16px;
+}
+.title-book-products-1 p a,
+.title-book-products-2 p a,
+.title-book-products-3 p a,
+.title-book-products-4 p a{
+    font-size: 14px;
     font-weight: 700;
     color: #000;
 }
-.products-button{
+.product-button{
     text-align: center;
     margin-bottom: 1%;
 }
-.products-button button{
+.product-button button{
     width: 12vw;
     height: 5vh;
     font-weight: 700;
-    color: #fff;
-    background-color: #D0B999;
-    border: 2px solid #fff;
+    color: #C8AB8D;
+    border: none;
     border-radius: 30px;
     font-size: 16px;
 }
-.products-button button:hover{
-    color: #C8AB8D;
-    background-color: #fff;
-    border: none;
+.product-button button:hover{
+    background-color: #D0B999;
+    color: #fff;
+    border: 2px solid #fff;
 }
-.products-button .arrow-icon{
+.product-button .arrow-icon{
     text-align: center;
 }
 

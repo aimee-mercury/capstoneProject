@@ -14,36 +14,36 @@ function Production() {
     <div className='bookproducts'>
       <div className='image-book-products-1'>
         <div><img src={stop} alt="" /></div>
-        <div className='title-book-products-1'>
+        <div className='title-book-product-1'>
           <p>We have this book in the store, You can rent it or buy it any time. <br /><br /> <a href="">Learn  more ...</a></p>
         </div>
       </div>
       <div className='image-book-products-2'>
       <div><img src={kid} alt="" /></div>
-      <div className='title-book-products-2'>
+      <div className='title-book-product-2'>
       <p>We have this book in the store, You can rent it or buy it any time. <br /><br /> <a href="">Learn  more ...</a></p>
         </div>
       </div>
       <div className='image-book-products-3'>
       <div><img src={bibliograph} alt="" /></div>
-      <div className='title-book-products-3'>
+      <div className='title-book-product-3'>
       <p>We have this book in the store, You can rent it or buy it any time. <br /><br /> <a href="">Learn  more ...</a></p>
         </div>
       </div>
       <div>
       <div className='image-book-products-4'><img src={pic2} alt="" /></div>
-      <div className='title-book-products-4'>
+      <div className='title-book-product-4'>
       <p>We have this book in the store, You can rent it or buy it  any time. <br /><br /> <a href="">Learn  more ...</a></p>
         </div>
       </div>
       <div>
       <div className='image-book-products-4'><img src={tongue} alt="" /></div>
-      <div className='title-book-products-4'>
+      <div className='title-book-product-4'>
       <p>We have this book in the store, You can rent it or buy it any time. <br /><br /> <a href="">Learn  more ...</a></p>
         </div>
       </div>
     </div>
-    <div className='product-button'>
+    <div className='products-button'>
         <button>More products <FaArrowRightLong className='arrow-icon'/></button>
       </div>
     </div>
