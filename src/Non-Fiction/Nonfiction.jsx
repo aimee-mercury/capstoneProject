@@ -6,10 +6,12 @@ import pic2 from '../assets/book and tittle 7.jpg'
 import bibliograph from '../assets/book and tittle4 1.jpg'
 import './Nonfiction.css'
 import Footer from '../Footer/Footer'
+import Navigation from '../components/Navigation'
 
 function Nonfiction() {
   return (
     <div>
+    <Navigation/>
     <div className='products-heading'><h2>Non-Fiction Books</h2></div>
   <div className='bookproducts'>
     <div className='image-book-products-1'>

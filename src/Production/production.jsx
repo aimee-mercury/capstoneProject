@@ -43,7 +43,7 @@ function Production() {
         </div>
       </div>
     </div>
-    <div className='product-button'>
+    <div className='products-button'>
         <button>More products <FaArrowRightLong className='arrow-icon'/></button>
       </div>
     </div>

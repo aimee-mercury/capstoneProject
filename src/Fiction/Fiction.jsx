@@ -7,10 +7,12 @@ import bibliograph from '../assets/book and tittle4 1.jpg'
 import { FaArrowRightLong } from "react-icons/fa6";
 import './Fiction.css'
 import Footer from '../Footer/Footer'
+import Navigation from '../components/Navigation'
 
 function Fiction() {
   return (
     <div>
+      <Navigation/>
       <div className='products-heading'><h2>Fiction Books</h2></div>
     <div className='bookproducts'>
       <div className='image-book-products-1'>

@@ -37,35 +37,36 @@
 .title-book-product-2 p,
 .title-book-product-3 p,
 .title-book-product-4 p{
-    font-size: 16px;
+    font-size: 17px;
 }
 .title-book-product-1 p a,
 .title-book-product-2 p a,
 .title-book-product-3 p a,
 .title-book-product-4 p a{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     color: #000;
 }
-.product-button{
+.products-button{
     text-align: center;
     margin-bottom: 1%;
 }
-.product-button button{
+.products-button button{
     width: 12vw;
     height: 5vh;
     font-weight: 700;
-    color: #C8AB8D;
-    border: none;
+    color: #fff;
+    background-color: #D0B999;
+    border: 2px solid #fff;
     border-radius: 30px;
     font-size: 16px;
 }
-.product-button button:hover{
-    background-color: #D0B999;
-    color: #fff;
-    border: 2px solid #fff;
+.products-button button:hover{
+    color: #C8AB8D;
+    background-color: #fff;
+    border: none;
 }
-.product-button .arrow-icon{
+.products-button .arrow-icon{
     text-align: center;
 }
 
