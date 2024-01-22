@@ -28,7 +28,8 @@ function Login() {
                     <input type="password" required  className='password'/><br /> <br />
                 <input type="checkbox" /> Remember me <span className='login-span-1'>Forgot password </span>
                 </div>
-                <button className='loginbut'> Login</button>
+                <button className='loginbut'>USER</button>
+                <button className='loginbut'>ADMIN</button>
                 <button className='singn'>Back <TbArrowBack /></button>
                 </div>
                     <p  className='add'>Don't have an account?<Link to='/signup' className='login-span-2'>Sign up</Link></p>
