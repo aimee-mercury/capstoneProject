@@ -53,6 +53,7 @@ function Support() {
             <div className='supportfouth'>
               <label className='support-fouth-label' required>Method of payments</label><br/><br/>
       <select name="" id="see">
+        
       <option value="">credit card</option>
       <option value="">visa card</option>
       <option value="">payroll</option>
