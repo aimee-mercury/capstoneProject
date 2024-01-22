@@ -26,13 +26,14 @@ function Login() {
                 <input type="checkbox" /> Remember me <span className='login-span-1'>Forgot password </span>
                 </div>
 <br /><br />
-                <button className='loginbut'>USER</button>
+                <button className='loginbut'>Login as User</button>
 
-                <Link to='/dashboard'><button className='loginbut'>ADMIN</button></Link><br /><br />
+                <Link to='/dashboard'><button className='loginbut'>Login as Admin</button></Link><br /><br />
                 </div>
                     <p  className='add'>Don't have an account?<Link to='/signup' className='login-span-2'>Sign up</Link></p>
                 </div>
                 </div>
+                
                 </div>
                 <Footer/>
    </>

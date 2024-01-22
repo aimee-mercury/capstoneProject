@@ -7,8 +7,12 @@
     background-color: #C8AB8D;
     font-family: sans-serif;
     color: black;
+   
  }
  .app{
+   display: flex;
+   align-items: center;
+   justify-content: center;
  max-width: 60rem;
  max-height: 80rem;
  align-items: center;
@@ -24,9 +28,7 @@
     margin-top: 20px;
     margin-bottom: 0;
    }
- .login-span-or{
-    color: #fff;
- }
+ 
   .google{
      display: flex;
     gap:2.5rem;
@@ -44,22 +46,13 @@
   .loginbut{
      margin-right: 30px;
      border-radius: 50px;
+     padding:10px;
      height: 30px;
-     width: 70px;
      color: #C8AB8D;
      background-color: white;
      font-weight: bold;
   }
-  .singn{
-   text-decoration: none;
-     margin: 20px;
-     border-radius: 50px;
-     height: 30px;
-     width: 70px;
-     color: #C8AB8D;
-     background-color: white;
-     font-weight: bold;
-  }
+ 
   button a{
    text-decoration: none;
    color: #C8AB8D;
