@@ -72,7 +72,7 @@ body{
     width: 11vw;
     height: 5vh;
     color: #fff;
-    background-color: transparent;
+    background-color: #D0B999;
     border: 2px solid #fff;
     font-weight: 700;
     border-radius: 30px;
@@ -94,16 +94,17 @@ body{
 .supportus-button button{
     width: 11vw;
     height: 5vh;
-    color: #C8AB8D;
-    border: none;
+    color: #fff;
+    background-color: #D0B999;
+    border: 2px solid #fff;
     font-weight: 700;
     border-radius: 30px;
     font-size: 16px;
 }
 .supportus-button button:hover{
-    background-color: #D0B999;
-    color: #fff;
-    border: 2px solid #fff;
+    color: #C8AB8D;
+    background-color: #fff;
+    border: none;
 }
 .second-section, .first-section{
     display: flex;
