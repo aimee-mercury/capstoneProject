@@ -19,7 +19,7 @@ function Navigation() {
     <img src={logo} alt="" className='ai' />
 
 <ul className={active}>
-     <li className="nav__item"><a href="#" className='nav__link'>Home</a></li> 
+     <li className="nav__item"><a href="/" className='nav__link'>Home</a></li> 
      <li className="nav__item"><a href="#About" className='nav__link'>About Us </a></li>
      <li className="nav__item"><a href="#categories" className='nav__link'>Collection </a></li>
      <li className="nav__item"><a href="#visit" className='nav__link'>Visit Us</a></li>
