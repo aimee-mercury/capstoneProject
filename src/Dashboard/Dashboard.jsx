@@ -104,8 +104,8 @@ function Dashboard() {
             <td className="people">
               {/* <img src="src/assets/1image.jpg" alt="" /> */}
             <div>
-               <h5 className='dashboard-headings'>Lydie Ingabire</h5>
-               <p className='dashboard-paragraphs'>lydiengabire@gmail.com</p>
+               <h5 className='dashboard-headings'>Ingabire Marie Aimee</h5>
+               <p className='dashboard-paragraphs'>marieaimee@gmail.com</p>
             </div>
             </td>
             <td className="people-des">
@@ -124,8 +124,8 @@ function Dashboard() {
             <td className="people">
               {/* <img src="src/assets/1image.jpg" alt="" /> */}
             <div>
-               <h5 className='dashboard-headings'>Munezero Christian</h5>
-               <p className='dashboard-paragraphs'>munezerochris@gmail.com</p>
+               <h5 className='dashboard-headings'>Gihozo alice </h5>
+               <p className='dashboard-paragraphs'>gihalice@gmail.com</p>
             </div>
             </td>
             <td className="people-des">
@@ -143,8 +143,8 @@ function Dashboard() {
             <td className="people">
               {/* <img src="src/assets/1image.jpg" alt="" /> */}
             <div>
-               <h5 className='dashboard-headings'>Ncuti Vencheur</h5>
-               <p className='dashboard-paragraphs'>ncutivencheur@gmail.com</p>
+               <h5 className='dashboard-headings'>Mutoni liliane </h5>
+               <p className='dashboard-paragraphs'>mutonilili@gmail.com</p>
             </div>
             </td>
             <td className="people-des">
