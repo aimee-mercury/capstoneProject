@@ -7,6 +7,7 @@ import About from './components/About';
 import Category from './Categories/Categories';
 import Supportus from './Support Us/supportus';
 import SinUp from './Sinupproject/sinup';
+import Dashboard from './Dashboard/Dashboard';
 
 
 function App() {
@@ -23,8 +24,8 @@ function App() {
       <Route path='/signup' element={< SinUp/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/supportus' element={<Support/>}/>
-      {/* <Route path='/visitus' element={<VisitUs/>}/>
-      <Route path='/dashboard' element={<Dashboard/>}/> */}
+      {/* <Route path='/visitus' element={<VisitUs/>}/> */}
+      <Route path='/dashboard' element={<Dashboard/>}/>
     </Routes>
     </Router>
 
