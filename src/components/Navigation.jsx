@@ -22,7 +22,7 @@ function Navigation() {
      <li className="nav__item"><a href="#" className='nav__link'>Home</a></li> 
      <li className="nav__item"><a href="#About" className='nav__link'>About Us </a></li>
      <li className="nav__item"><a href="#categories" className='nav__link'>Collection </a></li>
-     <li className="nav__item"><a href="#visit" className='nav__link'>Visit Us</a></li>
+     <li className="nav__item"><Link to='/visit'><a href="#visit" className='nav__link'>Visit Us</a></Link></li>
      <li className="nav__item"><a href="#support" className='nav__link'>Support Us</a></li>
      <Link to='/login'><button className="" id="me">Log in</button></Link>
  </ul>

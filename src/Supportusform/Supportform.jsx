@@ -40,6 +40,7 @@ function Support() {
             <div className='supportfouth'>
               <label className='support-fouth-label'>Method of payments</label><br/><br/>
       <select name="" id="see">
+        
       <option value="">credit card</option>
       <option value="">you</option>
       <option value="">he</option>

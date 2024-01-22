@@ -1,0 +1,42 @@
+.heading{
+    max-width:200rem;
+    margin: 2rem auto;
+    text-align: center;
+    background-color:  rgb(208,185,153);
+    height: 70rem;
+   position: relative;
+   border-radius: .10rem;
+   color: black;
+}
+.visit4{
+    margin: 3rem auto;
+    position: relative;
+    margin-left: 20%;
+}
+.sinup4{
+    margin-left: 20%;
+
+}
+#see{
+width: 30rem;
+}
+
+           
+.vistfirst{
+width: 25rem;
+height: 4rem;
+border: none;
+border-radius: 1rem;
+}
+.visitsecond{
+    width: 25rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem;  
+}
+.message{
+    width: 25rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem; 
+}
