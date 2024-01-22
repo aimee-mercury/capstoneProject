@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Login from './login/login';
 import Support from './Supportusform/Supportform';
 import Home from './home';
-
+import Visit from './visit/vist';
 
 function App() {
  
@@ -17,8 +17,8 @@ function App() {
       <Route path='/signup' element={<SinUp/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/supportus' element={<Support/>}/>
-      {/* <Route path='/visitus' element={<VisitUs/>}/>
-      <Route path='/dashboard' element={<Dashboard/>}/> */}
+      <Route path='/visit' element={<Visit/>}/>
+      {/* <Route path='/dashboard' element={<Dashboard/>}/> */}
     </Routes>
     </Router>
     </>

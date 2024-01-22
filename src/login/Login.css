@@ -8,6 +8,7 @@ body{
  max-height: 80rem;
  align-items: center;
  margin-left:25%;
+ padding-bottom: 4rem;
  }
    .loginContainer{
      margin: 15%;
@@ -15,14 +16,15 @@ body{
     justify-content: center;
    }
    .please{
-     margin: 3cqi;
+     margin: 0.1cqi;
      padding-bottom:1rem;
-    padding-left: 0.1rem;
+     padding-top: 1rem;
+    
    }
  .login-span-or{
     color: #fff;
  }
-  .google{
+  /* .google{
      display: flex;
     gap:2.5rem;
      width: 63%;
@@ -35,10 +37,11 @@ body{
      color: #C8AB8D;
      background-color: white;
      font-weight: bold;
-  }
+  } */
   .loginbut{
      margin-right: 30px;
      border-radius: 50px;
+     border: none;
      height: 30px;
      width: 70px;
      color: #C8AB8D;
@@ -48,6 +51,7 @@ body{
   .singn{
      margin: 20px;
      border-radius: 50px;
+      border: none;
      height: 30px;
      width: 70px;
      color: #C8AB8D;
@@ -70,11 +74,13 @@ body{
      width: 60%;
      padding: 0.5rem;
      border-radius: .6rem;
+     padding-bottom: 3rem;
   }
   .input-container .password{
      width: 60%;
      padding: 0.5rem;
      border-radius: .6rem;
+     padding-bottom: 3rem;
   }
   .lines-or{
     display: flex;
@@ -89,13 +95,15 @@ body{
     width: 20%;
     border-bottom: 2px solid #fff;
  }
- .aime{
+ /* .aime{
     width: 20%;
     border-bottom: 2px solid #fff;
  }
  .add, .login-span-2{
     margin-bottom: 10%;
- }
+ } */
  .welcome{
-    font-size:x-large;
+    font-size:larger;
+    margin: 2rem;
+    padding-top: 5rem;
  }
