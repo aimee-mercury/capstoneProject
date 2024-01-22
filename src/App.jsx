@@ -1,5 +1,5 @@
 
-import Login from './login/login';
+import Login from './login/Login';
 import Support from './Supportusform/Supportform';
 import Home from './home';
 

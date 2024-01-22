@@ -22,15 +22,15 @@
     justify-content: center;
    }
    .please{
-<<<<<<< HEAD
+
      margin: 0.1cqi;
      padding-bottom:1rem;
      padding-top: 1rem;
     
-=======
+
     margin-top: 20px;
     margin-bottom: 0;
->>>>>>> 82b38aba08dfc9ef09b528d88e483ba422adb5d6
+
    }
  .login-span-or{
     color: #fff;
@@ -118,16 +118,12 @@
     margin-bottom: 10%;
  } */
  .welcome{
-<<<<<<< HEAD
     font-size:larger;
     margin: 2rem;
     padding-top: 5rem;
-=======
     font-size:x-large;
  }
  a button{
    text-decoration: none;
    color: #C8AB8D;
-
->>>>>>> 82b38aba08dfc9ef09b528d88e483ba422adb5d6
  }
