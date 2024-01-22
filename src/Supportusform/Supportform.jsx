@@ -6,19 +6,31 @@ import { TbArrowBack } from "react-icons/tb";
 import React from 'react'
 import './Supportform.css'
 import Footer from "../Footer/Footer";
+import Navigation from "../components/Navigation";
 
 
 function Support() {
   return (   
 <>
+<Navigation/>
 <div className='container'>
  <div className='supportus'>
+  <h2>SupportUs</h2>
+  
 
-  <h2>Support Us</h2>
-  <p className="kigali"><br/><CiLocationOn className="location" />Kigali - Rwanda</p>
-  <p className="phone"><IoIosCall className="pho" />+250-782-467-899</p>
-  <p className="email"><MdOutlineMail className="em" />readrwa@gmail.com</p>
-  <button className="btnsupport">Back<TbArrowBack className="bu" /></button>
+  <div className="kasuku">
+    <ul>
+      <li><CiLocationOn /></li>
+      <li> <IoIosCall /></li>
+      <li> <MdOutlineMail /></li>
+    </ul>
+    <ul>
+      <li>Kigali-Rwanda</li>
+      <li>+250-782-467-899</li>
+      <li>readrwa@gmail.com</li>
+    </ul>
+  </div>
+  {/* <button className="btnsupport">Back<TbArrowBack className="bu" /></button> */}
 
  </div>
  <div className="supportus2">
@@ -33,24 +45,29 @@ function Support() {
             <input type='text' required className='supportsecond3'></input>
             </div>
             </div> 
+            <div className="two">
             <div className='supportthird'>
-              <label className='support-third-label'>Email</label><br/><br/>
+              <label className='support-third-label' required>Email</label><br/><br/>
             <input type='text' required className='supportfirst4'></input>
             </div>
             <div className='supportfouth'>
-              <label className='support-fouth-label'>Method of payments</label><br/><br/>
+              <label className='support-fouth-label' required>Method of payments</label><br/><br/>
       <select name="" id="see">
       <option value="">credit card</option>
-      <option value="">you</option>
-      <option value="">he</option>
-      <option value="">them</option>
-      <option value="">let</option>
+      <option value="">visa card</option>
+      <option value="">payroll</option>
+      
+   
     
      </select>
+     </div>
+     </div>
      <div className='supportfith'>
               <label className='support-fith-label'>Leave A Message</label><br/><br/>
-            </div>
-            </div>
+              <textarea className="te"></textarea>
+            </div><br /><br />
+            <button className="bu" >Submit</button>
+            
             </div>
 </div>
 <Footer/>
