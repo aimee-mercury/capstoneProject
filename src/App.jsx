@@ -9,6 +9,12 @@ import Supportus from './Support Us/supportus';
 import SinUp from './Sinupproject/sinup';
 import Dashboard from './Dashboard/Dashboard';
 import Visit from './visit/Visit';
+import Dashb from './Dashboard/Dashb';
+import Book from './Dashboard/Book';
+import Members from './Dashboard/Members';
+import Settings from './Dashboard/Settings';
+import Finance from './Dashboard/Finance';
+import Help from './Dashboard/Help';
 function App() {
  
 
