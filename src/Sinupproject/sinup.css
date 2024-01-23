@@ -96,20 +96,13 @@
         font-family: 'sans-serif';
         justify-content: center;
       
-  
        }
-      
-  
        .wrapper p{
         font-size: 1.2rem;
-     
-  
       }
        .wrapper .remember label{
         margin-left: -90px;
         font-family: sans-serif;
-       
-    
       }
       .signup-firstname-label{
         font-size: 1.7rem;
@@ -125,11 +118,13 @@
        transition: 5s ease;
        gap:2.3rem;
        padding-bottom: -30%;
-     
+       cursor: pointer; 
       }
-          .btnsinup:hover{
-            box-shadow: none;
-          }
+      .btnsinup:hover{
+        background: rgba(0, 0, 0, 0.595);
+        
+      }
+
         .name {
         display: flex;
         gap: 0.5rem;
@@ -183,8 +178,6 @@
           gap: 20rem;
           font-size: 1.9rem;
           
-        
-   
           }
            .btn:hover{
            box-shadow: none;}
@@ -202,9 +195,7 @@
         margin-left: -20%;
         padding: 4rem;
        font-family: sans-serif;
-  
-  
-      
+
        }
        .remember{
         padding-top: 1.4rem;
@@ -240,10 +231,7 @@
         margin: .6rem 0;
         font-family: 'sans-serif';
         justify-content: center;
-        
-      
-  
-  
+
        }
        .register-link p{
         margin-right:15%;
