@@ -67,14 +67,11 @@ function SinUp() {
             <div className="sinup4">
 
             <label >Password</label><br/>
-                <input type="password"  required  className='sinupfive' name="password" onChange={(e)=>setPassword(e.target.value)}/>
-
-            <label>Password</label><br/>
-                <input type="password"  required  className='sinupfivee'/>
+                <input type="password"  required  className='sinupfivee' name="password" onChange={(e)=>setPassword(e.target.value)}/>
 
             </div>
             <div className="sinup5">
-            <label >confirm password</label><br/>
+            <label >conferm password</label><br/>
                 <input type="password"  required className='sinupsix' name="confirmPassword" onChange={(e)=>setConfirmPassword(e.target.value)}/><br/>
 
             </div><br/><br/>
