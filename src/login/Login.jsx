@@ -1,21 +1,25 @@
 import React from 'react'
 import './Login.css'
-import { TbArrowBack } from "react-icons/tb";
 import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer';
+import Navigation from '../components/Navigation';
 function Login() {
   return (
     <>
-    <div className='login-container'>
+    <div>
+      <Navigation/>
+      <div className='ap'>
+
+      
     <div className='app'>
-        <div className='loginContainer'>
+        
             <h1 className='welcome'>WELCOME TO WISDOM LIBRARY</h1>
             <h3 className='please'>Please enter your details</h3>
-            </div>
+          
          
             <div className='input-container'>
               <label> Email</label><br/><br/>
-              <input type="email"required  className='email'/>
+              <input type="email"required  className='password'/>
             </div> <br />
                 <div className='input-container'>
                     <label>Password</label> <br/><br />
@@ -27,15 +31,11 @@ function Login() {
                 <button className='loginbut'>Login as User</button>
 
                 <Link to='/dashboard'><button className='loginbut'>Login as Admin</button></Link><br /><br />
+                <p  className='add'>Don't have an account?<Link to='/signup' className='login-span-2'>Sign up</Link></p>
                 </div>
-                    <p  className='add'>Don't have an account?<Link to='/signup' className='login-span-2'>Sign up</Link></p>
                 </div>
-             
-                
-               
-
-              
-                
+                </div>
+           
               
                 <Footer/>
    </>

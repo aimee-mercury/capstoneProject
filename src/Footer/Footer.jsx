@@ -73,15 +73,15 @@ function Footer() {
         <a href="/">Home</a>
       </div>
       <div>
-        <a href="">
+        <a href="#About">
          <p>About Us</p>
         </a>
       </div>
       <div>
-        <a href="">Collection</a>
+        <a href="/">Collection</a>
       </div>
       <div>
-        <a href="">Visit Us</a>
+        <a href="#Visit">Visit Us</a>
       </div>
       <div>
         <a href="/supportus">Support Us</a>

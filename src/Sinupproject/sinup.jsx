@@ -1,42 +1,78 @@
-import React from 'react'
+import axios from 'axios'
 import './sinup.css'
 import Footer from '../Footer/Footer'
 import Navigation from '../components/Navigation'
+import { useState } from 'react'
 
 function SinUp() {
+  const [firstName, setFirstName]= useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("")
+  // console.log("firstName", firstName)
+  // console.log("lastName", lastName)
+  // console.log("email", email)
+  // console.log("password", password)
+  // console.log("confirmPassword", confirmPassword)
+
+  const handleSignUp = (e) =>{
+    e.preventDefault();
+    console.log("submited successfully................");
+
+    const data = {
+      firstName: firstName,
+      secondName: lastName,
+      email: email,
+      password: password,
+      confirmPassword: confirmPassword
+    }
+    console.log(data)
+    axios.post("http://localhost:5000/api/expauth/v1/auth/signup",data).then((res)=>{
+        console.log("response: ",res.data)
+    }).catch((error)=>{
+      console.log("error while signing up......",error)
+    })
+  }
+
+  
+
+  
   return (
     <>
     <div className='signup-container'>
      <Navigation/>
        <div className='wrapper'> 
         <div className='sinup'>
-        <form action='' method='POST'>
+        <form action='' method='POST' onSubmit={handleSignUp}>
                <h1 className='signup-heading'>SignUp</h1><br/><br />
               
               <div className='name'>
                 <div className='sinup2'>
               <label className='signup-firstname-label'>FirstName</label><br/><br/>
-            <input type='text' required className='sinupfirst'></input>
+            <input type='text' required className='sinupfirst' name="firstName" onChange={(e)=>setFirstName(e.target.value)}></input>
             </div>
             <div className='sinup3'>
             <label >SurName</label><br/><br/>
-            <input type='text' required className='sinupsecond'></input>
+            <input type='text' required className='sinupsecond' name="secondName" onChange={(e)=>setLastName(e.target.value)}></input>
             </div>
             </div> 
            
             <div className="sinup3">
             <label >Email</label><br/>
-            <input type="email"  required className='sinupthird'/>
+            <input type="email"  required className='sinupthird' name="email" onChange={(e)=>setEmail(e.target.value)}/>
 
             </div>
 
             <div className="sinup4">
+
             <label >Password</label><br/>
-                <input type="password"  required  className='sinupfive'/>
+                <input type="password"  required  className='sinupfivee' name="password" onChange={(e)=>setPassword(e.target.value)}/>
+
             </div>
             <div className="sinup5">
-            <label >confirm password</label><br/>
-                <input type="password"  required className='sinupsix'/><br/>
+            <label >conferm password</label><br/>
+                <input type="password"  required className='sinupsix' name="confirmPassword" onChange={(e)=>setConfirmPassword(e.target.value)}/><br/>
 
             </div><br/><br/>
             <div className="remember">

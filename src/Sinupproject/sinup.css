@@ -75,8 +75,8 @@
         justify-content: center;
   
        }
-       .sinupfive{
-        width: 60%;
+       .sinupfivee{
+        width: 75%;
         padding:0.9rem;
         font-size: 1.7rem;
         color: black;
@@ -85,6 +85,7 @@
         margin: .6rem 0;
         font-family: 'sans-serif';
         justify-content: center;
+        margin-right: 30rem;
        }
        .sinupsix {
         width: 60%;
@@ -155,7 +156,7 @@
       }
       .sinup4 label{
         
-          margin-right: 44%;
+          margin-right: 80%;
           font-size: 1.7rem;
         }
         .sinup5 label{
