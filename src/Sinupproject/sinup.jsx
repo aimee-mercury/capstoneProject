@@ -53,7 +53,7 @@ function SinUp() {
             <input type='text' required className='sinupfirst' name="firstName" onChange={(e)=>setFirstName(e.target.value)}></input>
             </div>
             <div className='sinup3'>
-            <label >SurName</label><br/><br/>
+            <label >LastName</label><br/><br/>
             <input type='text' required className='sinupsecond' name="secondName" onChange={(e)=>setLastName(e.target.value)}></input>
             </div>
             </div> 

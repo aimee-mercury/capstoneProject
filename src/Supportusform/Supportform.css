@@ -3,6 +3,10 @@
 .container{
     display: flex;
     justify-content: center;
+    
+  
+   
+
 }
 .supportus{
 
@@ -15,6 +19,9 @@
     margin-left: 40rem;
     padding-right: 10rem;
     height: 60rem; 
+    height: 57rem; 
+    margin-top: -4%;
+    padding-top: -30%;
    
  
    
@@ -40,6 +47,7 @@
   .spp{
     font-size: 15px;
     padding-top: 20%;
+    margin-left: -25%;
   
   }
   .bu{
@@ -109,7 +117,7 @@
     justify-content: center;
     margin-left: -77%;
     gap: 3.9rem;
-    
+   border: none; 
    
 
   }
@@ -164,13 +172,14 @@
   }
   .bu{
     display: inline-block; 
-        padding:  1.5rem 2.8rem; 
+         padding:  1.5rem 2.8rem;  
        background-color:white;
         border-radius: 1.9rem; 
        font-size: 1.3rem;
        transition: 5s ease;
-       gap:2.3rem;
-       padding-bottom: -20%;
+       padding-bottom: -30%;
+       top: -20%;
+      
      
  
   }
@@ -183,6 +192,8 @@
     padding-right: 10rem;
     height: 60rem; 
       background-color:  rgb(208,185,153);
+      height: 57rem; 
+      margin-top: -4%;
 
      
   
@@ -222,17 +233,84 @@ li{
 .two{
   display: flex;
 }
-@media (max-width: 768px) {
-  .supportus {
-    width: 100%; 
-    margin-left: 0; 
+/* @media (max-width: 768px) {
+  .supportus,
+  .supportus2 {
+    width: 100%;
+    margin-left: 0;
     padding-right: 2rem;
     flex-direction: column;
-  }}
-  @media (max-width: 768px) {
-    .supportus2 {
-      width: 100%; 
-      margin-left: 0; 
-      padding-right: 2rem;
-      flex-direction: column;
-    }}
+  }} */
+
+  @media screen and (max-width: 1082px){
+    .container{
+      margin-left: 0;
+      font-size: 0.6rem;
+
+    }
+    }
+    @media screen and (max-width: 978px){
+      .container{
+        margin-left: 0;
+        font-size: 0.4rem;
+      }
+      .supportus2{
+        margin-left: 0;
+        font-size: 0.4rem;
+      }
+      }
+
+
+      @media screen and (max-width: 830px){
+      .container{
+        margin: 0;
+        display: inline;
+        flex-direction: column;
+      }
+      .supportus{
+        margin: 0;
+        font-size: 0.6rem;
+      }
+      } 
+
+      @media screen and (max-width: 400px){
+        .container{
+          margin: 0;
+          display: inline;
+          font-size: 0.4rem;
+          line-height: 0.2rem;
+        
+          flex-direction: column;
+        }
+        .supportus{
+          margin: 0;
+          font-size: 2.9rem;
+          line-height: 0.3rem;
+        }
+        .supportus2{
+          margin: 0;
+          font-size: 0.9rem;
+          line-height: 0.2rem;
+        }
+        }  
+        @media screen and (max-width: 462px){
+          .container{
+            margin: 0;
+            display: inline;
+            font-size: 0.4rem;
+            line-height: 0.2rem;
+          
+            flex-direction: column;
+          }
+          .supportus{
+            margin: 0;
+            font-size: 2.9rem;
+            line-height: 0.3rem;
+          }
+          .supportus2{
+            margin: 0;
+            font-size: 0.9rem;
+            line-height: 0.2rem;
+          }
+          } 
+    

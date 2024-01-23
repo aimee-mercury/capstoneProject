@@ -260,5 +260,27 @@
        .sinup6 p{
        gap: 2.4rem;
        }
-      
+       @media screen and (max-width: 978px){
+        .container{
+          margin-left: 0;
+          font-size: 2.4rem;
+          flex-direction: column;
+          width: 100px;
+        }
+        .wrapper{
+          margin-left: 0;
+          font-size: 2.4rem;
+        }}
+        @media screen and (max-width: 400px){
+          .container{
+            margin-left: 0;
+            font-size: 2.4rem;
+            flex-direction: column;
+            width: 100px;
+          }
+          .wrapper{
+            margin-left: 0;
+            font-size: 0.4rem;
+          }}
+        
       

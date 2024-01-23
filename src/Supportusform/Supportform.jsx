@@ -41,7 +41,7 @@ function Support() {
             <input type='text' required className='supportfirst2'></input>
             </div>
             <div className='supportsecond'>
-            <label className="support-surname-label">SurName</label><br/><br/>
+            <label className="support-surname-label">LastName</label><br/><br/>
             <input type='text' required className='supportsecond3'></input>
             </div>
             </div> 
@@ -65,8 +65,8 @@ function Support() {
      </div>
      <div className='supportfith'>
               <label className='support-fith-label'>Leave A Message</label><br/><br/>
-              <textarea className="te"></textarea>
-            </div><br /><br />
+              <textarea className="te"></textarea><br/><br/>
+            </div>
             <button className="bu" >Submit</button>
             
             </div>
