@@ -43,7 +43,7 @@ function SinUp() {
     <div className='signup-container'>
      <Navigation/>
        <div className='wrapper'> 
-        <div className='sinup'>
+        
         <form action='' method='POST' onSubmit={handleSignUp}>
                <h1 className='signup-heading'>SignUp</h1><br/><br />
               
@@ -86,7 +86,7 @@ function SinUp() {
             </form>   
         </div>
         </div> 
-    </div>
+  
     <Footer/> 
     </>
   )
