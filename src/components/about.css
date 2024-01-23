@@ -1,6 +1,9 @@
  body{
   color: #000;
  }
+ .about-container{
+  background-color: #C8AB8D;
+ }
  .about {
     background-image: url('../assets/Screenshot 2024-01-08 151854.png');
     background-size: cover;

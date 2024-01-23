@@ -10,15 +10,17 @@
            flex-direction: column;
        
          }}
-  
-  
+         .signup-container{
+         background-color: #C8AB8D;
+         height: 100vh;
+         }
   body{
       color: var(--text-color);
       padding-top: auto;
       justify-content: center;
-      background-color: #C8AB8D;
-   
+      /* background-color: #C8AB8D; */
         }
+    
   .signup-heading{
     text-align: center;
   }

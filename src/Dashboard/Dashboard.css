@@ -1,3 +1,7 @@
+.whole-dashboard{
+    background: #000000;
+    color: #fff;
+}
 #menu{
     background-color: #D0B999;
     width : 300px;
@@ -23,6 +27,9 @@
     margin-top: 30px;
     margin-left: 20px;
     line-height: 52px;
+}
+.dyn{
+    font-size: 26px;
 }
 #menu .items li{
     list-style: none;
@@ -50,7 +57,12 @@
     margin: 0 50px 0 25px;
     transition:  0.3s ease;
 }
-
+.dashboard-notify-icon{
+    margin-right: 3rem;
+    margin-top: 4rem;
+    font-size: x-large;
+    color: #bbbdbc;
+}
 
 .interf-section{
     position: absolute;
@@ -59,7 +71,8 @@
 }
 .interface{
     width: 50%;
-    margin-left: 3px;
+    height: 10vh;
+    margin-left: 7px;
     position: relative;
     
 }
@@ -70,34 +83,36 @@
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    padding: 29px 30px;
+    padding: 30px 30px;
     border-bottom: 3px solid #D0B999;
-    margin-left: 9px;
+    margin-left: 10px;
 }
 .interface .navigation .search{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 7px 19px;
+    padding: 10px 20px;
+    width: 30vw;
     border-radius: 50px;
-    border: 2px solid #bbbdbc;
-    border-bottom: 2px solid #bbbdbc;
-    background-color: #eeeeee;
+    border: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: #D0B999;
     
 }
 .interface .navigation .search input{
     border: none;
     outline: none;
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 15px;
-    color: #444a53;
+    color: #fff;
     font-weight: 500; 
-    background-color: #eeeeee;
+    background-color: #D0B999;
 }
 .interface .navigation .profile{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 5rem;
 }
 .interface .navigation .profile img{
   width: 35px;
@@ -116,7 +131,7 @@
     width: 26px;
 }
 .i-name{
-    color: #444a53;
+    color: #fff;
     font-size: 30px;
     position: fixed;
     font-weight: 700;
@@ -136,60 +151,60 @@
     color: #444a53;
 }
 .values {
-    padding: 30px 30px 0 30px;
+    padding: 0 30px 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 .values .val-box1{
-    background-color: white;
-    width: 233px;
+    background-color: #D0B999;
+    width: 230px;
     padding: 16px 29px;
     display: flex;
     position: relative;
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    margin-left: 5.2em;
+    margin-left: 5em;
     margin-top: 29.4em;
     line-height: 20px;
 }
 .values .val-box2{
-    background-color: white;
-    width: 233px;
+    background-color: #D0B999;
+    width: 230px;
     padding: 16px 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    margin-left: 22.5em;
+    margin-left: 22.3em;
     margin-top: 29.4em;
     line-height: 20px;
 }
 .values .val-box3{
     position:relative;
-    background-color: white;
-    width: 233px;
+    background-color: #D0B999;
+    width: 230px;
     padding: 16px 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    margin-left: 39.9em;
+    margin-left: 39.4em;
     margin-top: 29.4em;
     line-height: 20px;
 }
 .values .val-box4{
     position:relative;
-    background-color: white;
-    width: 233px;
+    background-color: #D0B999;
+    width: 230px;
     padding: 16px 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    margin-left: 57em;
+    margin-left: 55.7em;
     margin-top: 29.4em;
     line-height: 20px;
 }
@@ -234,31 +249,20 @@
     color: #fff;
     margin-right: 15px;
 }
-.values .val-box1:nth-child(1) i{
- background-color: #7874EC;
-}
-.values .val-box2:nth-child(2) i{
-    background-color: #5C8AF0;
-}
-.values .val-box3:nth-child(3) i{
-    background-color: #E45093;
-}
-.values .val-box4:nth-child(4) i{
-    background-color: #74DAEC;
-}
-h3{
-    font-size: 14px;
+
+.dashboard-head-numbers{
+    font-size: 16px;
     font-weight: 600;
 }  
 .dashboard-span{
     font-size: 15px;
-    color: #828997;
+    color: #e9ebed;
 }
 .board{
     width: 70em;
     margin: 30px;
     overflow: auto;
-    background-color: white;
+    background-color: #C8AB8D;
     border-radius: 19px;
 }
 .board img {
@@ -268,24 +272,24 @@ h3{
     border-radius: 50%;
     margin-right: 15px;
 }
-.dashboard-head-numbers{
-    font-weight: 600;
+.dashboard-headings{
+    
     font-size: 14px;
 }
 .dashboard-paragraphs{
     font-weight: 400;
-    font-size: 13px;
-    color: #787d8d;
+    font-size: 14px;
+    color: #e1e2e7;
 }
 .board .people{
      display: flex;
      justify-content: flex-start;
      align-items: center;
      text-align: start;
-     background-color: white;
+     background-color: #D0B999;
 }
 .board .people-des{
-    background-color: white;
+    background-color: #D0B999;
 }
 .board table{
     border-collapse: collapse;
@@ -295,21 +299,21 @@ h3{
     margin-top: 20em;
 }
 .board .active{
-    background-color: white;
+    background-color: #D0B999;
     
 }
 .board .edit{
-    background-color: white;
+    background-color: #D0B999;
 }
 .board .role{
-    background-color: white;
+    background-color: #D0B999;
 }
 thead tr td{
     font-size: 14px;
     font-weight: 900;
     text-transform: uppercase;
     font-weight: 40px;
-    background-color: #f5faf8;
+    background-color: #C8AB8D;
     text-align: start;
     padding: 15px;
 }
@@ -317,11 +321,11 @@ tbody tr td {
     padding: 10px 15px;
 }
 .active p{
-   background-color: #d7fada;
+   background-color: #C8AB8D;
    padding: 2px 10px;
    display: inline-block;
    border-radius: 40px;
-   color: #2b2b2b;
+   color: #fff;
 }
 .edit a{
     text-decoration: none;

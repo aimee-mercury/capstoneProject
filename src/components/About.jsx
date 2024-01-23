@@ -30,6 +30,7 @@ function About() {
   }, []);
   return (
     <>
+    <div className='about-container'>
  <div className='about' id='About'>
 <h1>About the library</h1>
 
@@ -89,6 +90,7 @@ function About() {
           </p>
         </div>
       </div>
+    </div>
     </div>
 </>
   )

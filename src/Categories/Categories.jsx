@@ -9,6 +9,7 @@ import './Categories.css'
 function Category() {
   return (
     <>
+    <div className='categories-container'>
     <div className='category-heading' id='categories'><h2>Category</h2></div>
     <div className='bookcategories'>
       <div className='image-book-category-1'>
@@ -35,6 +36,7 @@ function Category() {
           <h3><Link to='/academics' className='categories-link'>Academics</Link></h3>
         </div>
       </div>
+    </div>
     </div>
     </>
   )

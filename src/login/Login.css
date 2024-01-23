@@ -4,10 +4,12 @@
    margin: 0;
 }
    body{
-    background-color: #C8AB8D;
     font-family: sans-serif;
     color: black;
    
+ }
+ .login-container{
+   background-color: #C8AB8D;
  }
  .app{
    display: flex;

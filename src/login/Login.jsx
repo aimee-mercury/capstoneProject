@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 function Login() {
   return (
     <>
-    <div>
+    <div className='login-container'>
     <div className='app'>
         <div className='loginContainer'>
             <h1 className='welcome'>WELCOME TO WISDOM LIBRARY</h1>
