@@ -11,6 +11,12 @@ import Dashboard from './Dashboard/Dashboard';
 import Visit from './visit/Visit';
 import Fiction from './Fiction/Fiction';
 import Nonfiction from './Non-Fiction/Nonfiction';
+import Dashb from './Dashboard/Dashb';
+import Book from './Dashboard/Book';
+import Members from './Dashboard/Members';
+import Settings from './Dashboard/Settings';
+import Finance from './Dashboard/Finance';
+import Help from './Dashboard/Help';
 
 
 function App() {
@@ -31,6 +37,12 @@ function App() {
       <Route path='/fiction' element={<Fiction/>}/>
       <Route path='/non-fiction' element={<Nonfiction/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
+      <Route path='/dashboard' element={<Dashb/>}/>
+      <Route path='/books' element={<Book/>}/>
+      <Route path='/members' element={<Members/>}/>
+      <Route path='/settings' element={<Settings/>}/>
+      <Route path='/finance' element={<Finance/>}/>
+      <Route path='/help' element={<Help/>}/>
     </Routes>
     </Router>
 
