@@ -34,7 +34,7 @@ function Support() {
 
  </div>
  <div className="supportus2">
-    <h2> Raise your hand  to donate</h2>
+    <h1 className="spp"> Raise your hand  to donate</h1> <br /><br />
     <div className='supportname'>
                 <div className='supportfirst'>
               <label className='support-firstname-label'>FirstName</label><br/><br/>
@@ -52,7 +52,7 @@ function Support() {
             </div>
             <div className='supportfouth'>
               <label className='support-fouth-label' required>Method of payments</label><br/><br/>
-      <select name="" id="see">
+      <select name="" id="seee">
         
       <option value="">credit card</option>
       <option value="">visa card</option>
