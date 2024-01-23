@@ -13,6 +13,7 @@ body{
     align-items: center;
     color: #000;
     flex-direction: column;
+    background-color: #C8AB8D;
 }
 .supportus-heading{
     text-align: center;

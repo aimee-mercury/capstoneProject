@@ -1,10 +1,12 @@
 import React from 'react'
 import './Dashboard.css'
+import { IoIosNotificationsOutline } from "react-icons/io";
 import logo from '../assets/1.jpg'
+import profile from '../assets/avatar-profile.webp'
 
 function Dashboard() {
   return (
-    <div>
+    <div className='whole-dashboard'>
          <div id="menu">
           <div className="logo">
             <img src={logo} alt="" className="logo-images"/>
@@ -15,8 +17,8 @@ function Dashboard() {
        <li><a href="#">Books</a></li>
        <li><a href="#">Members</a></li>
        <li><a href="#">Settings</a></li>
-       <li><a href="#">Help</a></li>
-       <li><a href="#">Financial  Details</a></li>                  
+       <li><a href="#">Financial  Details</a></li>
+       <li><a href="#">Help</a></li>                  
     </div>
          </div>
        <div className='interf-section'>
@@ -29,9 +31,8 @@ function Dashboard() {
                     </div>
                 </div>
                 <div className="profile">
-                  <img src="src/assets/settings.svg" alt="" />
-                  <img src="src/assets/notifications.svg" alt="" className='svg'/>
-                    <img src="src/assets/1image.jpg"/>
+                <div><IoIosNotificationsOutline className='dashboard-notify-icon'/></div>
+                <div><img  src={profile} alt="" /></div>
                 </div>
             </div>
                 <h1 className='i-name'>Dashboard</h1>
@@ -41,28 +42,28 @@ function Dashboard() {
     <i></i>
     <div>
       <h3 className='dashboard-head-numbers'>8,267</h3>
-      <span className='dashboard-span'>New Users</span>
+      <span className='dashboard-span'>Users</span>
     </div>
   </div>
   <div className="val-box2">
     <i></i>
     <div>
       <h3 className='dashboard-head-numbers'>17</h3>
-      <span className='dashboard-span'>New Employees</span>
+      <span className='dashboard-span'>Employees</span>
     </div>
   </div>
   <div className="val-box3">
     <i></i>
     <div>
-      <h3 className='dashboard-head-numbers'>27</h3>
-      <span className='dashboard-span'>New Books</span>
+      <h3 className='dashboard-head-numbers'>19, 027</h3>
+      <span className='dashboard-span'>Books</span>
     </div>
   </div>
   <div className="val-box4">
     <i></i>
     <div>
-      <h3 className='dashboard-head-numbers'>$900</h3>
-      <span className='dashboard-span'>New Income</span>
+      <h3 className='dashboard-head-numbers'>$19, 000</h3>
+      <span className='dashboard-span'>Income</span>
     </div>
   </div>
     </div> 
@@ -82,7 +83,7 @@ function Dashboard() {
             <td className="people">
               <img src="src/assets/1image.jpg" alt="" />
             <div>
-               <h5>Rachel Mutoni</h5>
+               <h5 className='dashboard-headings'>Rachel Mutoni</h5>
                <p className='dashboard-paragraphs'>mutonirachel20@gmail.com</p>
             </div>
             </td>
@@ -100,7 +101,7 @@ function Dashboard() {
           </tr>
           <tr>
             <td className="people">
-              {/* <img src="src/assets/1image.jpg" alt="" /> */}
+              <img src="src/assets/1image.jpg" alt="" />
             <div>
                <h5 className='dashboard-headings'>Ingabire Marie Aimee</h5>
                <p className='dashboard-paragraphs'>marieaimee@gmail.com</p>

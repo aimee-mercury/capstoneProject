@@ -40,8 +40,8 @@ function SinUp() {
   
   return (
     <>
+    <div className='signup-container'>
      <Navigation/>
-     <div className='signup-container'>
        <div className='wrapper'> 
         <div className='sinup'>
         <form action='' method='POST' onSubmit={handleSignUp}>
