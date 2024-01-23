@@ -68,9 +68,10 @@
     position: absolute;
     margin-left: 18.5em;
     padding: 0;
+    
 }
 .interface{
-    width: 50%;
+    width: 100%;
     height: 10vh;
     margin-left: 7px;
     position: relative;
@@ -112,7 +113,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 .interface .navigation .profile img{
   width: 35px;
@@ -131,17 +132,18 @@
     width: 26px;
 }
 .i-name{
-    color: #fff;
+    color: #C8AB8D;
     font-size: 30px;
     position: fixed;
     font-weight: 700;
-    margin-top: 5em;
-    left: 13.9em;
+    margin-top: 6em;
+    left: 12.5em;
 }
 .n1{
     color: #444a53;
     font-size: 0.70em;
     position: relative;
+    margin-top: 2rem;
 }
 .n1 img{
     height: 18px;
@@ -149,6 +151,10 @@
     left: 10px;
     top: 0.8em;
     color: #444a53;
+}
+.values-boxes{
+    display: flex;
+    flex-direction: column;
 }
 .values {
     padding: 0 30px 0 30px;
@@ -166,7 +172,7 @@
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    margin-left: 5em;
+    margin-left: 3em;
     margin-top: 29.4em;
     line-height: 20px;
 }
@@ -178,7 +184,7 @@
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    margin-left: 22.3em;
+    margin-left: 20em;
     margin-top: 29.4em;
     line-height: 20px;
 }
@@ -191,7 +197,7 @@
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    margin-left: 39.4em;
+    margin-left: 37em;
     margin-top: 29.4em;
     line-height: 20px;
 }
@@ -204,7 +210,7 @@
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    margin-left: 55.7em;
+    margin-left: 54em;
     margin-top: 29.4em;
     line-height: 20px;
 }
@@ -295,7 +301,7 @@
     border-collapse: collapse;
     width: 70%;
     position: fixed;
-    margin-left: 5.2em;
+    margin-left: 3em;
     margin-top: 20em;
 }
 .board .active{
@@ -313,12 +319,12 @@ thead tr td{
     font-weight: 900;
     text-transform: uppercase;
     font-weight: 40px;
-    background-color: #C8AB8D;
+    color: #C8AB8D;
     text-align: start;
     padding: 15px;
 }
 tbody tr td {
-    padding: 10px 15px;
+    padding: 10px 10px;
 }
 .active p{
    background-color: #C8AB8D;
@@ -330,6 +336,6 @@ tbody tr td {
 .edit a{
     text-decoration: none;
     font-size: 14px;
-    color: #554cd1;
+    color: #fff;
     font-weight: 600;
 }
