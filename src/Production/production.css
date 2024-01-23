@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+.products-container{
+    background-color: #C8AB8D;
+}
 .products-heading{
     text-align: center;
     padding: 1%;

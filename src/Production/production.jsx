@@ -9,7 +9,7 @@ import './production.css'
 
 function Production() {
   return (
-    <div>
+    <div className='products-container'>
       <div className='products-heading'><h2>Products</h2></div>
     <div className='bookproducts'>
       <div className='image-book-products-1'>

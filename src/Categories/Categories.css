@@ -7,6 +7,9 @@ body{
     width: 100%;
     font-family: sans-serif;
 }
+.categories-container{
+    background-color: #C8AB8D;
+}
 .category-heading{
     text-align: center;
     padding: 2%;

@@ -7,6 +7,7 @@ import './newsb.css'
 function Newb() {
   return (
     <>
+    <div className='newb-container'>
     <div className='newb-heading'><h2>News & Blog</h2></div>
     <div className='booknewb'>
       <div className='image-book-newb-1'>
@@ -27,6 +28,7 @@ function Newb() {
           <h3>Watchout our blogs & news here</h3>
         </div>
       </div>
+    </div>
     </div>
     </>
   )
