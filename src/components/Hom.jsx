@@ -1,14 +1,27 @@
+// Home.js
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import Navigation from "./Navigation";
+
 
 function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [hasSearched, setHasSearched] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedBook, setSelectedBook] = useState(null);
 
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
+  };
+
+  const openModal = (book) => {
+    setSelectedBook(book);
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
   };
 
   useEffect(() => {
@@ -78,7 +91,7 @@ function Home() {
             }`}
           >
             {searchResults.map((book) => (
-              <div key={book.id}>
+              <div key={book.id} onClick={() => openModal(book)}>
                 <h2>{book.volumeInfo.title}</h2>
                 <p>
                   Author(s): {book.volumeInfo.authors?.join(", ") || "Unknown"}
@@ -89,6 +102,10 @@ function Home() {
               </div>
             ))}
           </div>
+
+          {showModal && (
+            <SearchResultModal book={selectedBook} onClose={closeModal} />
+          )}
         </div>
       </div>
     </>

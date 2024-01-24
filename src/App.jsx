@@ -9,10 +9,6 @@ import Supportus from './Support Us/supportus';
 import SinUp from './Sinupproject/sinup';
 import Dashboard from './Dashboard/Dashboard';
 import Visit from './visit/Visit';
-import Fiction from './Fiction/Fiction';
-import Nonfiction from './Non-Fiction/Nonfiction';
-
-
 function App() {
  
 
@@ -28,8 +24,6 @@ function App() {
       <Route path='/login' element={<Login/>}/>
       <Route path='/supportus' element={<Support/>}/>
       <Route path='/visitus' element={<Visit/>}/>
-      <Route path='/fiction' element={<Fiction/>}/>
-      <Route path='/non-fiction' element={<Nonfiction/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
     </Routes>
     </Router>
