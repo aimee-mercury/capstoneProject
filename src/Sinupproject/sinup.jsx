@@ -64,17 +64,19 @@ function SinUp() {
 
             </div>
 
-            <div className="sinup4">
+ 
+            <div className="sinup5">
+            <label >password</label><br/>
+            <input type="password"  required className='sinupsix' name="Password" onChange={(e)=>setPassword(e.target.value)}/><br/>
 
-            <label >Password</label><br/>
-                <input type="password"  required  className='sinupfivee' name="password" onChange={(e)=>setPassword(e.target.value)}/>
-
-            </div>
+            </div><br/>
+        
             <div className="sinup5">
             <label >conferm password</label><br/>
-                <input type="password"  required className='sinupsix' name="confirmPassword" onChange={(e)=>setConfirmPassword(e.target.value)}/><br/>
+            <input type="password"  required className='sinupsix' name="confirmPassword" onChange={(e)=>setConfirmPassword(e.target.value)}/><br/>
 
             </div><br/><br/>
+
             <div className="remember">
             <input type="checkbox" className='larger-checkbox'/> I accept Terms of use and  privacy policy 
             <br/>
