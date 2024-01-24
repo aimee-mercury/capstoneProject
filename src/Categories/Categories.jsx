@@ -27,7 +27,7 @@ function Category() {
       <div className='image-book-category-3'>
       <div><img src={bibliograph} alt="" /></div>
       <div className='title-book-category-3'>
-          <h3><Link to='/bibliograph' className='categories-link'>Bibliograph</Link></h3>
+          <h3><Link to='/bibiograph' className='categories-link'>Bibliograph</Link></h3>
         </div>
       </div>
       <div className='image-book-category-4'>

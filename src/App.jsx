@@ -11,6 +11,9 @@ import Dashboard from './Dashboard/Dashboard';
 import Visit from './visit/Visit';
 import Fiction from './Fiction/Fiction';
 import Nonfiction from './Non-Fiction/Nonfiction';
+import Bibiliograph from './profile/Biography/Biogr';
+import Academics from './profile/Academics/Academic';
+
 
 
 function App() {
@@ -30,6 +33,8 @@ function App() {
       <Route path='/visitus' element={<Visit/>}/>
       <Route path='/fiction' element={<Fiction/>}/>
       <Route path='/non-fiction' element={<Nonfiction/>}/>
+      <Route path='/bibiograph' element={<Bibiliograph/>}/>
+      <Route path='/academics' element={<Academics/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
     </Routes>
     </Router>

@@ -3,12 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-.heeee{
-    background-color:  rgb(208,185,153 );
-}
 body{
     width: 100%;
     font-family: sans-serif;
+}
+.hee{
+    background-color:  rgb(208,185,153 );
 }
 .products-heading{
     text-align: center;
