@@ -96,6 +96,21 @@ body {
 }
 
 
+/* ather css */
 
+.search-results {
+  
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.search-results-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 
 

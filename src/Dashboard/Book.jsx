@@ -3,10 +3,12 @@ import './Dashboard.css'
 import { MdDeleteOutline } from "react-icons/md";
 import { CiEdit } from "react-icons/ci";
 import employeeprofile from '../assets/avatar-profile.webp'
+import Menu from './Menu';
 
 function Book() {
   return (
     <div id='book'>
+    <Menu/>
       <div className="board">
       <table width="100%">
         <thead> 

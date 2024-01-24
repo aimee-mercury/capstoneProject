@@ -9,6 +9,7 @@ import Supportus from './Support Us/supportus';
 import SinUp from './Sinupproject/sinup';
 import Dashboard from './Dashboard/Dashboard';
 import Visit from './visit/Visit';
+<<<<<<< HEAD
 import Fiction from './Fiction/Fiction';
 import Nonfiction from './Non-Fiction/Nonfiction';
 import Bibiliograph from './profile/Biography/Biogr';
@@ -16,6 +17,14 @@ import Academics from './profile/Academics/Academic';
 
 
 
+=======
+import Dashb from './Dashboard/Dashb';
+import Book from './Dashboard/Book';
+import Members from './Dashboard/Members';
+import Settings from './Dashboard/Settings';
+import Finance from './Dashboard/Finance';
+import Help from './Dashboard/Help';
+>>>>>>> 98398d654b488b803dd8c0b2ea1034fcebdc3f8d
 function App() {
  
 
@@ -31,11 +40,20 @@ function App() {
       <Route path='/login' element={<Login/>}/>
       <Route path='/supportus' element={<Support/>}/>
       <Route path='/visitus' element={<Visit/>}/>
+<<<<<<< HEAD
       <Route path='/fiction' element={<Fiction/>}/>
       <Route path='/non-fiction' element={<Nonfiction/>}/>
       <Route path='/bibiograph' element={<Bibiliograph/>}/>
       <Route path='/academics' element={<Academics/>}/>
+=======
+>>>>>>> 98398d654b488b803dd8c0b2ea1034fcebdc3f8d
       <Route path='/dashboard' element={<Dashboard/>}/>
+      <Route path='/dashboard' element={<Dashb/>}/>
+      <Route path='/books' element={<Book/>}/>
+      <Route path='/members' element={<Members/>}/>
+      <Route path='/settings' element={<Settings/>}/>
+      <Route path='/finance' element={<Finance/>}/>
+      <Route path='/help' element={<Help/>}/>
     </Routes>
     </Router>
 

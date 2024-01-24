@@ -1,27 +1,12 @@
 import React from 'react'
 import './Dashboard.css'
-import adminprofile from '../assets/avatar-profile.webp'
-import { IoIosNotificationsOutline } from "react-icons/io";
+
+import Menu from './Menu';
 
 function Dashb(props) {
   return (
     <div>
       <div className='interf-section'>
-      <div className="interface">
-            <div className="navigation">
-                <div className="n1">
-                <img src="src/assets/search.svg" alt=""/>
-                    <div className="search">
-                        <input type="text" placeholder="search" className='dashboard-search-placeholder'/>
-                    </div>
-                </div>
-                <div className="profile">
-                <div><IoIosNotificationsOutline className='dashboard-notify-icon'/></div>
-                <div><img  src={adminprofile} alt="" /></div>
-                </div>
-            </div>
-                <h1 className='i-name'>{props.tittle}</h1>
-        </div>
         <div className="values">
   <div className="val-box1">
     <i></i>
