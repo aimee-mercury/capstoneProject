@@ -28,14 +28,11 @@ function Login() {
             <span className="login-span-1">Forgot password </span>
           </div>
 
-          <br />
-          <br />
-          <br />
-          <button className="loginbut">Login as User</button>
-
-          <Link to="/dashboard">
-            <button className="loginbut">Login as Admin</button>
-          </Link>
+ <br /><br />
+<Link to="/dashboard">
+  <button className="loginbut">Log in</button>
+</Link>
+     
           <br />
           <br />
           <p className="add">

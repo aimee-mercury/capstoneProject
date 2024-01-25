@@ -10,11 +10,7 @@ function SinUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("")
-  // console.log("firstName", firstName)
-  // console.log("lastName", lastName)
-  // console.log("email", email)
-  // console.log("password", password)
-  // console.log("confirmPassword", confirmPassword)
+ 
 
   const handleSignUp = (e) =>{
     e.preventDefault();
@@ -64,17 +60,19 @@ function SinUp() {
 
             </div>
 
-            <div className="sinup4">
-
-            <label >Password</label><br/>
-                <input type="password"  required  className='sinupfivee' name="password" onChange={(e)=>setPassword(e.target.value)}/>
-
-            </div>
+ 
             <div className="sinup5">
-            <label >conferm password</label><br/>
-                <input type="password"  required className='sinupsix' name="confirmPassword" onChange={(e)=>setConfirmPassword(e.target.value)}/><br/>
+            <label >password</label><br/>
+            <input type="password"  required className='sinupsix' name="Password" onChange={(e)=>setPassword(e.target.value)}/><br/>
+
+            </div><br/>
+        
+            <div className="sinup9">
+            <label  className='co'>confirm password</label><br/>
+            <input type="password"  required className='sinupsix' name="confirmPassword" onChange={(e)=>setConfirmPassword(e.target.value)}/><br/>
 
             </div><br/><br/>
+
             <div className="remember">
             <input type="checkbox" className='larger-checkbox'/> I accept Terms of use and  privacy policy 
             <br/>

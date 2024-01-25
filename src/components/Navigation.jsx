@@ -1,6 +1,5 @@
 import React , {useState} from 'react';
 import './navigation.css';
-import './me'
 import logo from '../assets/1.jpg'
 import {Link} from 'react-router-dom'
 
