@@ -1,63 +1,91 @@
-import React from 'react'
-import './visit.css'
-import Footer from '../Footer/Footer'
-import Navigation from '../components/Navigation'
+
 import { CiLocationOn } from "react-icons/ci";
 import { IoIosCall } from "react-icons/io";
 import { MdOutlineMail } from "react-icons/md";
+import { TbArrowBack } from "react-icons/tb";
+import React from 'react' 
+import './Visit.css'
+import Footer from "../Footer/Footer";
+import Navigation from "../components/Navigation";
 
 
-const Visit = () => {
-  return (
-   <>
-    <Navigation/>
-    
-    <div className='container'>
- <div className='visit'>
+function Support() {
+  return (   
+< >
 
-  <h2>Visit US</h2>
-  <p className="kigali-rwanda"><br/><CiLocationOn className="city" />Kigali - Rwanda</p>
-  <p className="telephone"><IoIosCall className="mobile" />+250-782-467-899</p>
-  <p className="gmail"><MdOutlineMail className="pesonalemail" />readrwa@gmail.com</p>
- 
+<Navigation/>
+
+<div className="objj">
+<div className='vistus'>
+  <h2 className="vi">Visitus</h2>
+  
+
+  <div className="kasuku1">
+    <ul>
+      <li><CiLocationOn /></li>
+      <li> <IoIosCall /></li>
+      <li> <MdOutlineMail /></li>
+    </ul>
+    <ul>
+      <li>Kigali-Rwanda</li>
+      <li>+250-782-467-899</li>
+      <li>readrwa@gmail.com</li>
+    </ul>
+  </div>
+
 
  </div>
- <div className="visitpeople">
-    <h2> Book Your  Place In Our Book  Shop</h2>
-    <div className='visitname'>
-                <div className='visittfirst'>
-              <label className='visit-firstname-label'>FirstName</label><br/><br/>
-            <input type='text' required className='visittfirst2'></input>
+ <div className="vistus2">
+    <h3 className="sppp"> Book Your place In our Book Shop </h3> <br /><br />
+    <div className='vistusname'>
+                <div className='vistusfirst'>
+              <label className='vistus-firstname-label'>FirstName</label><br/><br/>
+            <input type='text' required className='vistusfirst2'></input>
             </div>
-            <div className='visitsecond'>
-            <label className="visit-surname-label">SecondName</label><br/><br/>
-            <input type='text' required className='visitsecond3'></input>
+            <div className='vistussecond'>
+            <label className="vitus-surname-label">LastName</label><br/><br/>
+            <input type='text' required className='vistussecond3'></input>
             </div>
             </div> 
-            <div className='visitthird'>
-              <label className='visit-third-label'>Email</label><br/><br/>
-            <input type='text' required className='visitfirst4'></input>
+            <div className="vistus3">
+            <label className="enn" >Email</label><br/>
+            <input type="email"  required className='vistusthirdd' name="email" />
+
             </div>
-            <div className='visitfouth'>
-              <label className='visit-fouth-label'>Method of payments</label><br/><br/>
-      <select name="" id="card">
+            <div className="twoo">
+    
+            <div className='vistusfouth'>
+              <label className='vistus-fouth-label' required>Method of payments</label><br/><br/>
+      <select name="" id="senn">
         
       <option value="">credit card</option>
       <option value="">visa card</option>
       <option value="">payroll</option>
-      
-     
      </select>
-     <div className='visitfith'>
-              <label className='visit-fith-label'>Leave A Message</label><br/><br/>
+     </div><br/><br/>
+     <div className='vistusthird'>
+              <label className='vistus-third-label' required>Number of people</label><br/><br/>
+            <input type='number' required className='vistusfirst4'></input>
             </div>
-            </div>
-            </div>
+     </div>
+     <div className='vistusfith'>
+              <label className='vistus-fith-label'>Leave A Message</label><br/>
+              <textarea className="ten"></textarea>
+            </div><br/><br/>
+            <button className="bun" >Submit</button>
+            
+       </div> 
+
+
 </div>
+
+
+
 
 <Footer/>
 </>
+
   )
 }
 
-export default Visit
+export default Support;

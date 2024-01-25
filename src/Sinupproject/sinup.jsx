@@ -71,8 +71,8 @@ function SinUp() {
 
             </div><br/>
         
-            <div className="sinup5">
-            <label >conferm password</label><br/>
+            <div className="sinup9">
+            <label  className='co'>confirm password</label><br/>
             <input type="password"  required className='sinupsix' name="confirmPassword" onChange={(e)=>setConfirmPassword(e.target.value)}/><br/>
 
             </div><br/><br/>
