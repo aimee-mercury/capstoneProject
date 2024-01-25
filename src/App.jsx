@@ -15,15 +15,14 @@ import Members from './Dashboard/Members';
 import Settings from './Dashboard/Settings';
 import Finance from './Dashboard/Finance';
 import Help from './Dashboard/Help';
-<<<<<<< HEAD
+
 import SearchResultsPage from './components/SearchResultsPage';
 
-=======
 import Fiction from './Fiction/Fiction';
 import Nonfiction from './Non-Fiction/Nonfiction';
 import Academics from './profile/Academics/Academic';
 import Bibiliograph from './profile/Biography/Biogr';
->>>>>>> d0bd79b729109417cce1cfe636e2530d122bdcb6
+
 function App() {
  
 
