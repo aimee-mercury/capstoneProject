@@ -1,8 +1,8 @@
-// Home.js
+
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import Navigation from "./Navigation";
-
+import SearchResultsPage from "./SearchResultsPage";
 
 function Home() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -88,11 +88,13 @@ function Home() {
           <div
             className={`search-results ${
               hasSearched ? "" : "search-results-hidden"
-            }`}
+            }`} id='modal-overlay' 
           >
             {searchResults.map((book) => (
-              <div key={book.id} onClick={() => openModal(book)}>
-                <h2>{book.volumeInfo.title}</h2>
+              <div key={book.id} onClick={() => openModal(book)} >
+
+       
+              <h3>*{book.volumeInfo.title}</h3>
                 <p>
                   Author(s): {book.volumeInfo.authors?.join(", ") || "Unknown"}
                 </p>
@@ -104,7 +106,7 @@ function Home() {
           </div>
 
           {showModal && (
-            <SearchResultModal book={selectedBook} onClose={closeModal} />
+            <SearchResultsPage book={selectedBook} onClose={closeModal} />
           )}
         </div>
       </div>
