@@ -13,8 +13,9 @@ function Support() {
   return (   
 <>
 <Navigation/>
-<div className='container'>
- <div className='supportus'>
+<div className="container1">
+
+<div className='supportus'>
   <h2>SupportUs</h2>
   
 
@@ -30,7 +31,7 @@ function Support() {
       <li>readrwa@gmail.com</li>
     </ul>
   </div>
-  {/* <button className="btnsupport">Back<TbArrowBack className="bu" /></button> */}
+   {/* <button className="btnsupport">Back<TbArrowBack className="bu" /></button>  */}
 
  </div>
  <div className="supportus2">
@@ -69,8 +70,9 @@ function Support() {
             </div>
             <button className="bu" >Submit</button>
             
-            </div>
+            </div> 
 </div>
+
 <Footer/>
 </>
 

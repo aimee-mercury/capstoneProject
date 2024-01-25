@@ -15,8 +15,15 @@ import Members from './Dashboard/Members';
 import Settings from './Dashboard/Settings';
 import Finance from './Dashboard/Finance';
 import Help from './Dashboard/Help';
+<<<<<<< HEAD
 import SearchResultsPage from './components/SearchResultsPage';
 
+=======
+import Fiction from './Fiction/Fiction';
+import Nonfiction from './Non-Fiction/Nonfiction';
+import Academics from './profile/Academics/Academic';
+import Bibiliograph from './profile/Biography/Biogr';
+>>>>>>> d0bd79b729109417cce1cfe636e2530d122bdcb6
 function App() {
  
 
@@ -32,6 +39,10 @@ function App() {
       <Route path='/Support' element={<Supportus/>}/>
       <Route path='/signup' element={< SinUp/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/fiction' element={<Fiction/>}/>
+      <Route path='/non-fiction' element={<Nonfiction/>}/>
+      <Route path='/bibiograph' element={<Bibiliograph/>}/>
+      <Route path='/academics' element={<Academics/>}/>
       <Route path='/supportus' element={<Support/>}/>
       <Route path='/visitus' element={<Visit/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
