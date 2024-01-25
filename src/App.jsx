@@ -15,6 +15,8 @@ import Members from './Dashboard/Members';
 import Settings from './Dashboard/Settings';
 import Finance from './Dashboard/Finance';
 import Help from './Dashboard/Help';
+import SearchResultsPage from './components/SearchResultsPage';
+
 function App() {
  
 
@@ -23,6 +25,8 @@ function App() {
   <Router>
     <Routes>
       <Route path='/' element={<Home/>}/>
+
+      <Route path="/search-results" element={<SearchResultsPage />} />
       <Route path='/About' element={<About/>}/>
       <Route path='/Categories' element={<Category/>}/>
       <Route path='/Support' element={<Supportus/>}/>
@@ -44,4 +48,6 @@ function App() {
   );
 }
 export default App
+
+
 

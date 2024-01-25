@@ -10,11 +10,7 @@ function SinUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("")
-  // console.log("firstName", firstName)
-  // console.log("lastName", lastName)
-  // console.log("email", email)
-  // console.log("password", password)
-  // console.log("confirmPassword", confirmPassword)
+ 
 
   const handleSignUp = (e) =>{
     e.preventDefault();
