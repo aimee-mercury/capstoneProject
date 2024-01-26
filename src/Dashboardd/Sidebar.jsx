@@ -3,6 +3,8 @@ import {BsGrid1X2Fill, BsPeopleFill, BsMenuButtonWideFill, BsFillGearFill} from 
 import { SiBookstack } from 'react-icons/si'
 import { RiMoneyDollarCircleFill } from 'react-icons/ri'
 import { IoIosHelpCircle } from "react-icons/io";
+import { FaSignOutAlt } from "react-icons/fa";
+
 import {Link} from 'react-router-dom'
 import logo from '../assets/1.jpg'
 import './Dashboard.css'
@@ -44,13 +46,8 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
                 </Link>
             </li>
             <li className='sidebar-list-item'>
-                <Link to='/help'>
-                    <IoIosHelpCircle className='icon'/> Help
-                </Link>
-            </li>
-            <li className='sidebar-list-item'>
                 <Link to='/signout'>
-                    <BsFillGearFill className='icon'/> Signout
+                    <FaSignOutAlt className='icon'/> Signout
                 </Link>
             </li>
         </ul>
