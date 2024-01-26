@@ -12,7 +12,8 @@
          }}
   .signup-container{
          background-color: #C8AB8D;
-         height: 100vh;
+         height:110vh;
+        
     }
   body{
       color: var(--text-color);
@@ -28,7 +29,7 @@
       margin: 2rem auto;
       text-align: center;
       margin-bottom: 5rem;
-      background-color:  rgb(208,185,153);
+      background-color:  #C8AB8D;
       height: 70rem;
      width: 50rem;
      position: relative;
@@ -70,9 +71,7 @@
         justify-content: center;
   
        }
-       /* .en{
-        margin-left: -70%;
-       } */
+      
        .sinupfivee{
         width: 75%;
         padding:0.9rem;
@@ -110,10 +109,10 @@
         
       }
       .btnsinup{
-        display: inline-block; 
+       display: inline-block; 
        padding:  1.5rem 2.8rem;
        background-color:white;
-        border-radius: 1.5rem; 
+       border-radius: 1.5rem; 
        font-size: 1.9rem;
        transition: 5s ease;
        gap:2.3rem;
@@ -161,7 +160,6 @@
         
         }
         .sinup1 label{
-        
          width: 60%;
         }
         .sinupfirst label{
@@ -205,7 +203,7 @@
        .larger-checkbox {
         width: 30px; 
         height: 20px; 
-        margin-left: -80px;
+        margin-left: 80px;
         padding: 4rem;
         
        
@@ -235,7 +233,7 @@
 
        }
        .register-link p{
-        margin-right:15%;
+       
         font-size: 1.7rem;
        margin-top: 5.7%;
         gap: 2.3rem; 
@@ -245,6 +243,7 @@
        .sinup6 a{
         color: white;
         font-size: 1.7rem;
+        
        }
        .sinup6 p{
        gap: 2.4rem;

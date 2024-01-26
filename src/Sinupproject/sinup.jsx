@@ -43,17 +43,15 @@ function SinUp() {
         <form action='' method='POST' onSubmit={handleSignUp}>
                <h1 className='signup-heading'>SignUp</h1><br/><br />
               
-              <div className='name'>
-                <div className='sinup2'>
-              <label className='signup-firstname-label'>FirstName</label><br/><br/>
-            <input type='text' required className='sinupfirst' name="firstName" onChange={(e)=>setFirstName(e.target.value)}></input>
-            </div>
-            <div className='sinup3'>
-            <label >LastName</label><br/><br/>
-            <input type='text' required className='sinupsecond' name="secondName" onChange={(e)=>setLastName(e.target.value)}></input>
-            </div>
-            </div> 
-           
+            
+            <div className="sinup3">
+            <label  className='co'>Full Name</label><br/>
+            <input type="text"  required  className='sinupthird' name="firstName" onChange={(e)=>setFirstName(e.target.value)}/><br/>
+
+            </div><br />
+
+
+
             <div className="sinup3">
             <label >Email</label><br/>
             <input type="email"  required className='sinupthird' name="email" onChange={(e)=>setEmail(e.target.value)}/>
@@ -75,7 +73,7 @@ function SinUp() {
 
             <div className="remember">
             <input type="checkbox" className='larger-checkbox'/> I accept Terms of use and  privacy policy 
-            <br/>
+            <br/><br/>
             <button type="submit" className='btnsinup'>SignUp</button><br/><br/>
             <div className="register-link">
                 <p className='sinup6'>Already have an account?<a href="login" >Login In Here</a></p>
