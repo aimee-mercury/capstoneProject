@@ -6,7 +6,6 @@ import './search.css';
 const SearchResultsPage = ({ searchResults }) => {
   return (
     <div className='modal-overlay'>
-      <h1>Search Results Page</h1>
       {searchResults.map((book) => (
         <div key={book.id}>
           <h3>{book.volumeInfo.title}</h3>

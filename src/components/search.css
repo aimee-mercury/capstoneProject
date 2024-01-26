@@ -8,6 +8,7 @@
     max-height:100%;
     margin-left:450px;
     background-color: #C8AB8D;
+    color: white;
     z-index: 100;
     cursor: pointer;
     overflow-y: scroll
