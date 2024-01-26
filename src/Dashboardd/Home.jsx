@@ -1,6 +1,6 @@
 import React from 'react'
 import {BsPeopleFill} from 'react-icons/bs'
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 import {RiMoneyDollarCircleFill} from 'react-icons/ri'
 import { SiBookstack } from 'react-icons/si'
 import { TbUsersGroup } from "react-icons/tb";
