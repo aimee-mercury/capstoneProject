@@ -26,12 +26,14 @@ function Home() {
       <div>
         <Navigation />
         <div className="ae">
+          <div className="landing-content">
           <h1 className="we">
             Wisdom Library space <br /> to <span>re</span>ad, <span>le</span>
             arn, <span>gr</span>ow and <br /> <span>co</span>nnect.
           </h1>
           <p className="we1">Open every day 9:00 am - 10:00 pm <br /><br /> Do you want a book?<br /><br />
           <button onClick={handleClick} className="landing-letsget-btn">Let's get Started</button></p>
+          </div>
         </div>
       </div>
     </>
