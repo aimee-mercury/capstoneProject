@@ -28,15 +28,15 @@
       max-width:50rem;
        margin: 2rem auto; 
       text-align: center;
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
       margin-bottom: -5rem;
       background-color:  rgb(208,185,153);
       height: 60rem;
-=======
+/* ======= */
       margin-bottom: 5rem;
       background-color:  #C8AB8D;
       height: 70rem;
->>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134
+/* >>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134 */
      width: 50rem;
       position: relative; 
      padding-top: 5%;  
@@ -241,11 +241,11 @@
 
        }
        .register-link p{
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
         margin-right:-3.5%;
-=======
-       
->>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134
+/* ======= */
+/*        
+>>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134 */
         font-size: 1.7rem;
        margin-top: 5.7%;
         gap: 2.3rem; 

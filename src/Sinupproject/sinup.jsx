@@ -73,9 +73,20 @@ function SinUp() {
 
             <div className="remember">
             <input type="checkbox" className='larger-checkbox'/> I accept Terms of use and  privacy policy 
+<<<<<<< HEAD
             <br/><br/>
             
             <button type="submit" className='btnsinup'>SignUp</button><br/><br/>
+=======
+{/* <<<<<<< HEAD */}
+            <br/><br/> 
+            <button type="submit" className='btnsinup'>SignUp</button>
+{/* ======= */}
+            <br/><br/>
+            
+            {/* <button type="submit" className='btnsinup'>SignUp</button><br/><br/> */}
+{/* >>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134 */}
+>>>>>>> 658cfda8a9fae49a872d97fe8969a60673b4659f
             <div className="register-link">
                 <p className='sinup6'>Already have an account?<a href="login" >Login In Here</a></p>
                 </div>
