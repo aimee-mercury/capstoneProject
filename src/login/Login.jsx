@@ -10,7 +10,7 @@ function Login() {
         <Navigation />
 
         <form className="ap1">
-          <h1 className="welcome">WELCOME TO WISDOM LIBRARY</h1>
+          <h1 className="welcome">WELCOME TO WISDOM LIBRARY</h1><br/>
           <p className="please">Please enter your details</p>
 
           <div className="input-container">

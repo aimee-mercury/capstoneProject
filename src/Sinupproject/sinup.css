@@ -25,16 +25,17 @@
   }
      .wrapper{
       max-width:50rem;
-      margin: 2rem auto;
+       margin: 2rem auto; 
       text-align: center;
-      margin-bottom: 5rem;
+      margin-bottom: -5rem;
       background-color:  rgb(208,185,153);
-      height: 70rem;
+      height: 60rem;
      width: 50rem;
-     position: relative;
+      position: relative; 
      padding-top: 5%;  
      border-radius: .8rem;
      color: black;
+
     
     } 
    
@@ -178,6 +179,7 @@
           margin-right: 10%;
           gap: 20rem;
           font-size: 1.9rem;
+   
           
           }
   .btn:hover{
@@ -205,7 +207,7 @@
        .larger-checkbox {
         width: 30px; 
         height: 20px; 
-        margin-left: -80px;
+        margin-left: 80px;
         padding: 4rem;
         
        
@@ -235,7 +237,7 @@
 
        }
        .register-link p{
-        margin-right:15%;
+        margin-right:-3.5%;
         font-size: 1.7rem;
        margin-top: 5.7%;
         gap: 2.3rem; 
@@ -256,5 +258,43 @@
       margin-left: -33%;
     }
       
+    @media only screen and (max-width: 600px) {
+      .name {
+          margin-left: 0;
+      }
+  
+      .btnsinup {
+          margin-right: 0;
+      }
+  
+      .wrapper .remember {
+          padding: 1rem;
+      }
+  
+      .register-link p {
+          margin-right: 0;
+          margin-top: 2.7rem;
+          padding-bottom: 1.5rem;
+      }
+  }   
       
-      
+  @media only screen and (max-width: 554px) {
+    .name {
+        margin-left: 0;
+    }
+
+    .btnsinup {
+        margin-right: 0;
+    }
+
+    .wrapper .remember {
+        padding: 1rem;
+    }
+
+    .register-link p {
+        margin-right: 0;
+        margin-top: 2.7rem;
+        padding-bottom: 1.5rem;
+    }
+}   
+    

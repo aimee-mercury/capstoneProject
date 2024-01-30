@@ -17,12 +17,8 @@
     "react-dom": "^18.2.0",
     "react-icon": "^1.0.0",
     "react-icons": "^5.0.1",
-<<<<<<< HEAD
-    "react-router-dom": "^6.21.3"
-=======
     "react-router-dom": "^6.21.3",
     "recharts": "^2.10.4"
->>>>>>> 87adb512fc95fbd32cc9ccbbb39016573592e4b8
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

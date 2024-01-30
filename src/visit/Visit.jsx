@@ -70,12 +70,15 @@ function Support() {
      </div>
      <div className='vistusfith'>
               <label className='vistus-fith-label'>Leave A Message</label><br/>
-              <textarea className="ten"></textarea>
-            </div><br/><br/>
-            <button className="bun" >Submit</button>
+              <textarea className="ten"></textarea><br/><br/>
+              <button className="bun" >Submit</button>
+            </div> <br/><br/>
+           
+           
+       
             
        </div> 
-
+      
 
 </div>
 

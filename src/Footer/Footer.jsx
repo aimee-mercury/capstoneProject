@@ -18,7 +18,7 @@ function Footer() {
   return (
     <>
     <div className='footer-container-background-image'>
-    <div className='footer-partners-section'>
+    {/* <div className='footer-partners-section'>
       <div className='footer-partners-logos'>
       <div className='footer-partners'>
         <h1 className='footer-ourpartner'>Our Partner</h1>
@@ -42,7 +42,7 @@ function Footer() {
       </div>
       </div>
       </div>
-      </div>
+      </div> */}
     <div className='footer-logo-heading'>
     <div>
       <img src={logo} alt="Our logo" className='ourlogo'/>

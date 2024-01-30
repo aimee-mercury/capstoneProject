@@ -6,7 +6,7 @@
 }
 .container1
 {
-    background-color:  rgb(208,185,153 );
+  background-color: #D0B999;
     height: 100vh; 
     display: flex;
     justify-content: center;  
@@ -223,11 +223,11 @@
 
 }
 .te{
-padding-bottom: 25%;
+padding-bottom: 30%;
 margin-left: -80%;
 width: 200%;
 border-radius: .8rem;
-padding-bottom: 60%;
+padding-bottom: 50%;
 
 }
 
@@ -330,4 +330,7 @@ li{
             line-height: 0.2rem;
           }
           } 
+          .supportfith .te{
+            width: 42rem;
+          }
     

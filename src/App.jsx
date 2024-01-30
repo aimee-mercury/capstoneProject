@@ -9,16 +9,6 @@ import Category from './Categories/Categories';
 import Supportus from './Support Us/supportus';
 import SinUp from './Sinupproject/sinup';
 import Visit from './visit/Visit';
-<<<<<<< HEAD
-import Books from './Dashboardd/Books'
-import Finance from './Dashboardd/Finance'
-import Help from './Dashboardd/Help'
-import Settings from './Dashboardd/Settings'
-import Signout from './Dashboardd/Signout'
-import Dash from './Dashboardd/Dash'
-import Members from './Dashboardd/Members'
-import SearchResultsPage from './components/SearchResultsPage';
-=======
 import Members from './Dashboardd/Members';
 import Settings from './Dashboardd/Settings';
 import Finance from './Dashboardd/Finance';
@@ -26,15 +16,11 @@ import Help from './Dashboardd/Help';
 import Dash from './Dashboardd/Dash';
 import SearchResultsPage from './components/SearchResultsPage';
 import Signout from './Dashboardd/Signout';
->>>>>>> 87adb512fc95fbd32cc9ccbbb39016573592e4b8
 import Fiction from './Fiction/Fiction';
 import Nonfiction from './Non-Fiction/Nonfiction';
 import Academics from './profile/Academics/Academic';
 import Bibiliograph from './profile/Biography/Biogr';
-<<<<<<< HEAD
-=======
 import Books from './Dashboardd/Books';
->>>>>>> 87adb512fc95fbd32cc9ccbbb39016573592e4b8
 
 function App() {
  
