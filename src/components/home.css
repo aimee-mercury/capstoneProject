@@ -23,7 +23,6 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   padding: 20px;
- padding-top: 15%;
 }
 
 .search-icon {
@@ -73,11 +72,7 @@ body {
 .input-container {
   position: relative;
   display: inline-block;
-<<<<<<< HEAD
   margin-right: 99rem; 
-=======
-  margin-right: 42em; 
->>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134
   margin-top: 5rem;
  
 }
@@ -116,15 +111,6 @@ body {
 .search-results-hidden {
   opacity: 0;
   pointer-events: none;
-}
-
-
-@media screen and (max-width: 768px) {
- 
-  .we, .we1, .input-container {
-    margin-right: 0; 
-    margin-left: 30%;
-  }
 }
 
 
