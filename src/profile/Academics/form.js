@@ -17,8 +17,10 @@ function submitForm() {
     console.log('Rental Duration:', rentalDuration);
 
    //direction
-    window.location.href = 'https://www.researchgate.net/publication/328098737_The_Other_Slavery_at_the_Heart_of_America_Andres_Resendez_Indian_Enslavement_and_Looking_South_to_Amazonia'; 
+    window.location.href = 'https://hservers.org/kobo/%5BIT%5D/The%20Complete%20Beginners%20Guide%20to%20React.pdf'; 
 
     // Optional: Clear the form after submission
     document.getElementById('rentForm').reset();
 }
+
+

@@ -12,7 +12,6 @@ import Visit from './visit/Visit';
 import Members from './Dashboardd/Members';
 import Settings from './Dashboardd/Settings';
 import Finance from './Dashboardd/Finance';
-import Help from './Dashboardd/Help';
 import Dash from './Dashboardd/Dash';
 import SearchResultsPage from './components/SearchResultsPage';
 import Signout from './Dashboardd/Signout';
@@ -48,7 +47,6 @@ function App() {
         <Route path='/members'element={<Members/>}/>
         <Route path='/finance'element={<Finance/>}/>
         <Route path='/settings'element={<Settings/>}/>
-        <Route path='/help'element={<Help/>}/>
         <Route path='/signout'element={<Signout/>}/>
     </Routes>
     </Router>

@@ -12,7 +12,8 @@
          }}
   .signup-container{
          background-color: #C8AB8D;
-         height: 100vh;
+         height:110vh;
+        
     }
   body{
       color: var(--text-color);
@@ -27,9 +28,15 @@
       max-width:50rem;
        margin: 2rem auto; 
       text-align: center;
+<<<<<<< HEAD
       margin-bottom: -5rem;
       background-color:  rgb(208,185,153);
       height: 60rem;
+=======
+      margin-bottom: 5rem;
+      background-color:  #C8AB8D;
+      height: 70rem;
+>>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134
      width: 50rem;
       position: relative; 
      padding-top: 5%;  
@@ -71,9 +78,7 @@
         justify-content: center;
   
        }
-       /* .en{
-        margin-left: -70%;
-       } */
+      
        .sinupfivee{
         width: 75%;
         padding:0.9rem;
@@ -111,10 +116,10 @@
         
       }
       .btnsinup{
-        display: inline-block; 
+       display: inline-block; 
        padding:  1.5rem 2.8rem;
        background-color:white;
-        border-radius: 1.5rem; 
+       border-radius: 1.5rem; 
        font-size: 1.9rem;
        transition: 5s ease;
        gap:2.3rem;
@@ -162,7 +167,6 @@
         
         }
         .sinup1 label{
-        
          width: 60%;
         }
         .sinupfirst label{
@@ -237,7 +241,11 @@
 
        }
        .register-link p{
+<<<<<<< HEAD
         margin-right:-3.5%;
+=======
+       
+>>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134
         font-size: 1.7rem;
        margin-top: 5.7%;
         gap: 2.3rem; 
@@ -247,6 +255,7 @@
        .sinup6 a{
         color: white;
         font-size: 1.7rem;
+        
        }
        .sinup6 p{
        gap: 2.4rem;

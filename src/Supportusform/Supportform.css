@@ -15,12 +15,6 @@
 }
 
 
- /* .container1{
-  background-color: #C8AB8D;
-  height: 100%;
- 
- 
-}  */
 .supportus{
 
      background-image: url('../assets/image.png'); 
@@ -71,8 +65,7 @@
         border-radius: 2.5rem; 
        font-size: 1.9rem;
        transition: 5s ease;
-       /* gap:4.3rem; */
-       /* padding-bottom: -20%; */
+      color: #C8AB8D;
       margin-top: -40%;
 
   }

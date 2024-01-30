@@ -1,13 +1,12 @@
 .finance-dash-container{
-    width: 100%;
-    height: 100vh;
+    height: 93vh;
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
     background-color: #D0B999;
 }
-.dashboard-finance-page {
+/* .dashboard-finance-page {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -23,4 +22,4 @@
   
   .dash-finance, .dash-chart, .dash-transactions, .dash-acc-summary{
     color: #333;
-  }
+  } */
