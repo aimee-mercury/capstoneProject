@@ -74,6 +74,7 @@ function SinUp() {
             <div className="remember">
             <input type="checkbox" className='larger-checkbox'/> I accept Terms of use and  privacy policy 
             <br/><br/>
+            
             <button type="submit" className='btnsinup'>SignUp</button><br/><br/>
             <div className="register-link">
                 <p className='sinup6'>Already have an account?<a href="login" >Login In Here</a></p>
