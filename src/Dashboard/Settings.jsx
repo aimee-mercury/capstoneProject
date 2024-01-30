@@ -69,14 +69,7 @@ function Settings() {
                 />
                 Receive Email Notifications
               </label>
-              <label>
-                <input
-                  type="checkbox"
-                  checked={notificationSettings.pushNotifications}
-                  onChange={() => setNotificationSettings({ ...notificationSettings, pushNotifications: !notificationSettings.pushNotifications })}
-                />
-                Receive Push Notifications
-              </label>
+             
               {/* Add more notification settings */}
               </div>
             </div>

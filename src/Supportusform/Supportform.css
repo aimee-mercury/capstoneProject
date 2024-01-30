@@ -6,7 +6,7 @@
 }
 .container1
 {
-    background-color:  rgb(208,185,153 );
+  background-color: #D0B999;
     height: 100vh; 
     display: flex;
     justify-content: center;  
@@ -15,12 +15,6 @@
 }
 
 
- /* .container1{
-  background-color: #C8AB8D;
-  height: 100%;
- 
- 
-}  */
 .supportus{
 
      background-image: url('../assets/image.png'); 
@@ -71,8 +65,7 @@
         border-radius: 2.5rem; 
        font-size: 1.9rem;
        transition: 5s ease;
-       /* gap:4.3rem; */
-       /* padding-bottom: -20%; */
+      color: #C8AB8D;
       margin-top: -40%;
 
   }
@@ -223,11 +216,11 @@
 
 }
 .te{
-padding-bottom: 25%;
+padding-bottom: 30%;
 margin-left: -80%;
 width: 200%;
 border-radius: .8rem;
-padding-bottom: 60%;
+padding-bottom: 50%;
 
 }
 
@@ -330,4 +323,7 @@ li{
             line-height: 0.2rem;
           }
           } 
+          .supportfith .te{
+            width: 42rem;
+          }
     

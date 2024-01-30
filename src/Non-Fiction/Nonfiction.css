@@ -122,3 +122,12 @@ body{
     text-align: center;
 }
 }
+ @media screen and (max-width: 978px){
+    .heeeee{
+    margin-left: 0;
+    font-size: 0.4rem;
+    flex-direction: column;
+  }
+
+  
+}

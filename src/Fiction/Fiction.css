@@ -121,3 +121,26 @@ body{
     text-align: center;
 }
 }
+@media screen and (max-width: 1082px){
+    .heeeee{
+      margin-left: 0;
+      font-size: 0.6rem;
+
+    }
+    }
+    @media screen and (max-width: 978px){
+        .heeeee{
+        margin-left: 0;
+        font-size: 0.4rem;
+        flex-direction: column;
+      }
+    
+      
+}
+@media screen and (max-width: 978px){
+    .footer-container-background-image{
+   
+    flex-direction: column;
+    padding-bottom: 30%;
+  }
+}

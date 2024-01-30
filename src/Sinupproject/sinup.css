@@ -12,7 +12,8 @@
          }}
   .signup-container{
          background-color: #C8AB8D;
-         height: 100vh;
+         height:110vh;
+        
     }
   body{
       color: var(--text-color);
@@ -25,16 +26,23 @@
   }
      .wrapper{
       max-width:50rem;
-      margin: 2rem auto;
+       margin: 2rem auto; 
       text-align: center;
-      margin-bottom: 5rem;
+<<<<<<< HEAD
+      margin-bottom: -5rem;
       background-color:  rgb(208,185,153);
+      height: 60rem;
+=======
+      margin-bottom: 5rem;
+      background-color:  #C8AB8D;
       height: 70rem;
+>>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134
      width: 50rem;
-     position: relative;
+      position: relative; 
      padding-top: 5%;  
      border-radius: .8rem;
      color: black;
+
     
     } 
    
@@ -70,9 +78,7 @@
         justify-content: center;
   
        }
-       /* .en{
-        margin-left: -70%;
-       } */
+      
        .sinupfivee{
         width: 75%;
         padding:0.9rem;
@@ -110,10 +116,10 @@
         
       }
       .btnsinup{
-        display: inline-block; 
+       display: inline-block; 
        padding:  1.5rem 2.8rem;
        background-color:white;
-        border-radius: 1.5rem; 
+       border-radius: 1.5rem; 
        font-size: 1.9rem;
        transition: 5s ease;
        gap:2.3rem;
@@ -161,7 +167,6 @@
         
         }
         .sinup1 label{
-        
          width: 60%;
         }
         .sinupfirst label{
@@ -178,6 +183,7 @@
           margin-right: 10%;
           gap: 20rem;
           font-size: 1.9rem;
+   
           
           }
   .btn:hover{
@@ -205,7 +211,7 @@
        .larger-checkbox {
         width: 30px; 
         height: 20px; 
-        margin-left: -80px;
+        margin-left: 80px;
         padding: 4rem;
         
        
@@ -235,7 +241,11 @@
 
        }
        .register-link p{
-        margin-right:15%;
+<<<<<<< HEAD
+        margin-right:-3.5%;
+=======
+       
+>>>>>>> 512b7f56dc423ab2c173821e143205b3b6973134
         font-size: 1.7rem;
        margin-top: 5.7%;
         gap: 2.3rem; 
@@ -245,6 +255,7 @@
        .sinup6 a{
         color: white;
         font-size: 1.7rem;
+        
        }
        .sinup6 p{
        gap: 2.4rem;
@@ -256,5 +267,43 @@
       margin-left: -33%;
     }
       
+    @media only screen and (max-width: 600px) {
+      .name {
+          margin-left: 0;
+      }
+  
+      .btnsinup {
+          margin-right: 0;
+      }
+  
+      .wrapper .remember {
+          padding: 1rem;
+      }
+  
+      .register-link p {
+          margin-right: 0;
+          margin-top: 2.7rem;
+          padding-bottom: 1.5rem;
+      }
+  }   
       
-      
+  @media only screen and (max-width: 554px) {
+    .name {
+        margin-left: 0;
+    }
+
+    .btnsinup {
+        margin-right: 0;
+    }
+
+    .wrapper .remember {
+        padding: 1rem;
+    }
+
+    .register-link p {
+        margin-right: 0;
+        margin-top: 2.7rem;
+        padding-bottom: 1.5rem;
+    }
+}   
+    
