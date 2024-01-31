@@ -6,6 +6,10 @@
    height: 100vh;
    background-color:#C8AB8D; 
  }
+ #checkbox{
+  margin-right:250px ;
+  margin-top: 20px;
+ }
  form{
       background-color:  rgb(208,185,153);
 
@@ -54,10 +58,7 @@
   margin-right: 30%;
    margin-top: 10px;
  }
- .login-span-1{
-   margin-left: 20px;
- }
-
+ 
  .loginbut:hover {
    background-color: #00000087; 
  }
@@ -70,14 +71,14 @@
  .login-span-1,
  .login-span-2 {
    color: #fff;
+   margin-left: 20px;
  }
  
- .login-span-1:hover
- .login-span-2:hover {
+ .login-span-1:hover {
    text-decoration: underline;
-   cursor: pointer;
-   
+   cursor: pointer; 
  }
+
  @media only screen and (max-width: 768px) {
   .input-container {
       margin-left: 5px;

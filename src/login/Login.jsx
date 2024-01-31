@@ -24,10 +24,13 @@ function Login() {
             <label className="login-password">Password</label> <br />
             <br />
             <input type="password" required className="password" />
-            <br /> <br />
-            <input type="checkbox" id="checkbox" /> Remember me{" "}
-            <span className="login-span-1">Forgot password </span>
+            <br />
+          
+            <input type="checkbox" id="checkbox" /><p>Remember me<span className="login-span-1">Forgot password?</span></p>
+            
+           
           </div>
+
 
  <br /><br />
 <Link to="/dashboard">
