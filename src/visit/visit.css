@@ -14,15 +14,7 @@
     font-weight: 200; 
 
 }
- /* .visitcontainer */
-/* {
-    background-color:  rgb(208,185,153 );
-    height: 100vh; 
-    display: flex;
-    justify-content: center;  
-    
-    font-weight: 200; 
-} */
+
 
 .vistus{
 
@@ -68,15 +60,7 @@
   
   }
   .bun{
-    /* margin-left: 10%;
-    display: inline-block; 
-       background-color:white;
-        border-radius: 2.5rem; 
-       font-size: 1.9rem; */
-       /* transition: 5s ease; */
-   
-       /* padding-bottom: -20%;  */
-      /* margin-bottom: 5%; */
+    color: #d69856;
    margin-bottom: 50%;
 
   }

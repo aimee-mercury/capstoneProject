@@ -55,22 +55,22 @@ function Support() {
             <div className="twoo">
     
             <div className='vistusfouth'>
-              <label className='vistus-fouth-label' required>Method of payments</label><br/><br/>
+              <label className='vistus-fouth-label' required>Method of payments</label><br/>
       <select name="" id="senn">
         
       <option value="">credit card</option>
       <option value="">visa card</option>
       <option value="">payroll</option>
      </select>
-     </div><br/><br/>
+     </div><br /><br />
      <div className='vistusthird'>
-              <label className='vistus-third-label' required>Number of people</label><br/><br/>
+              <label className='vistus-third-label' required>Number of people</label><br/>
             <input type='number' required className='vistusfirst4'></input>
             </div>
      </div>
      <div className='vistusfith'>
               <label className='vistus-fith-label'>Leave A Message</label><br/>
-              <textarea className="ten"></textarea><br/><br/>
+              <textarea className="ten"></textarea><br/><br/><br />
               <button className="bun" >Submit</button>
             </div> <br/><br/>
            
