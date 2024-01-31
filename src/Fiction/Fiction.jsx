@@ -9,7 +9,6 @@ import children8 from '../assets/children8.jpeg'
 import children10 from '../assets/children10.jpeg'
 import children11 from '../assets/children11.jpeg'
 import children12 from '../assets/children12.jpeg'
-import { FaArrowRightLong } from "react-icons/fa6";
 import './Fiction.css'
 import Footer from '../Footer/Footer'
 import Navigation from '../components/Navigation'

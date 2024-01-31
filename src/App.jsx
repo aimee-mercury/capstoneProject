@@ -16,8 +16,10 @@ import Members from './Dashboard/Members'
 import Dashboard from './Dashboard/Dashboard';
 import Home from './Home';
 import Collection from './Collection/Collection';
-
-
+import Fiction from './Fiction/Fiction';
+import Nonfiction from './Non-Fiction/Nonfiction';
+import Academic from '../src/profile/Academics/Academic';
+import Biography from '../src/profile/Biography/Biogr';
 function App() {
  
 
@@ -32,6 +34,10 @@ function App() {
       <Route path='/Support' element={<Supportus/>}/>
       <Route path='/signup' element={< SinUp/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/non-fiction' element={<Nonfiction/>}/>
+      <Route path='/fiction' element={<Fiction/>}/>
+      <Route path='/Biography' element={<Biography/>}/>
+      <Route path='/Academics' element={<Academic/>}/>
       <Route path='/supportus' element={<Support/>}/>
       <Route path='/visitus' element={<Visit/>}/>
       <Route path='/dashboard'element={<Dashboard/>}/>
