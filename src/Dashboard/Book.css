@@ -4,8 +4,8 @@
 .dsh-add-btn {
   width: 11vw;
   height: 6vh;
-  color: #D0B999;
-  border: 2px solid #fff;
+  border: 2px solid #D0B999;
+  background-color: #fff;
   font-weight: 700;
   border-radius: 30px;
   font-size: 16px;
@@ -22,7 +22,7 @@ button:hover{
     align-content: center;
     justify-content: center;
     align-items: center;
-    background-color: #D0B999;
+    background-color: #fff;
 }
 .add-book-dash{
   text-align: center;
@@ -58,15 +58,15 @@ button:hover{
   .dsh-add-btn {
     width: 11vw;
     height: 6vh;
-    color: #fff;
-    border: 2px solid #fff;
-    background-color: #D0B999;
+    color:  #D0B999;;
+    background-color:  #fff;
+    border: 2px solid #D0B999;
     font-weight: 700;
     border-radius: 30px;
     font-size: 16px;
   }
   .dsh-add-btn:hover{
-    background-color: #fff;
-    color: #D0B999;
+    background-color: #D0B999;
+    color: #fff;
     border: none;
   }

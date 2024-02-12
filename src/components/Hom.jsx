@@ -1,12 +1,16 @@
 
 import React from "react";
 import "./home.css";
+import ReactPlayer from 'react-player';
 import Navigation from "./Navigation";
 import { useNavigate } from 'react-router-dom';
 
+
 function Home() {
    const navigate = useNavigate();
- 
+
+    const videoUrl = 'src/assets/video.mp4';
+  
    const handleClick = () => {
      const shouldGoToSignIn = true;
  
@@ -24,8 +28,17 @@ function Home() {
   return (
     <>
       <div>
+      <ReactPlayer
+        url={videoUrl}
+        playing
+        loop
+        muted
+        width="135%"
+        height="160%"
+        style={{ position: 'absolute'}}
+      />
         <Navigation />
-        <div className="ae">
+        <div className="ae"  data-aos="fade-up" data-aos-duration={2000}>
           <div className="landing-content">
           <h1 className="we">
             Wisdom Library space <br /> to <span>re</span>ad, <span>le</span>

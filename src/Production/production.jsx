@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import stop from '../assets/book and tittle2 1.jpg'
 import kid from '../assets/book and tittle3 1.jpg'
 import tongue from '../assets/book and tittle5 1.jpg'
@@ -6,10 +6,18 @@ import pic2 from '../assets/book and tittle 7.jpg'
 import bibliograph from '../assets/book and tittle4 1.jpg'
 import { FaArrowRightLong } from "react-icons/fa6";
 import './production.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Production() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true, 
+    });
+  }, []);
   return (
-    <div className='products-container'>
+    <div className='products-container' data-aos="fade-up" data-aos-duration={2000}>
       <div className='products-heading'><h2>Products</h2></div>
     <div className='bookproducts'>
       <div className='image-book-products-1'>

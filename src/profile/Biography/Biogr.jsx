@@ -9,10 +9,11 @@ import no7 from '../../../src/assets/no7.jpg'
 import no8 from '../../../src/assets/no9.jpg'
 import no9 from '../../../src/assets/no9.jpg'
 import no10 from '../../../src/assets/no10.jpg'
-import './Biogr.css'
+import './biogr.css'
+import {Link} from 'react-router-dom'
 import Footer from '../../Footer/Footer'
 import Navigation from '../../components/Navigation'
-// import Biography from '../Biography/Biogr'
+
 
 function Bibiliograph() {
   return (
@@ -24,31 +25,31 @@ function Bibiliograph() {
      <div className='image-book-products-1'>
       <div><img src={no1} alt="" /></div>
       <div className='title-book-products-1'>
-        <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+       <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div> 
     <div className='image-book-products-2'>
     <div><img src={no2} alt="" /></div>
     <div className='title-book-products-2'>
-    <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+   <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div>
     <div className='image-book-products-3'>
     <div><img src={no3} alt="" /></div>
     <div className='title-book-products-3'>
-    <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+   <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div>
     <div>
     <div className='image-book-products-4'><img src={no4} alt="" /></div>
     <div className='title-book-products-4'>
-    <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+   <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div>
     <div>
     <div className='image-book-products-4'><img src={no5} alt="" /></div>
     <div className='title-book-products-4'>
-    <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+   <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div>
   </div>
@@ -56,31 +57,31 @@ function Bibiliograph() {
     <div className='image-book-products-1'>
       <div><img src={no6} alt="" /></div>
       <div className='title-book-products-1'>
-        <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+       <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div>
     <div className='image-book-products-2'>
     <div><img src={no7} alt="" /></div>
     <div className='title-book-products-2'>
-    <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+   <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div>
     <div className='image-book-products-3'>
     <div><img src={no8} alt="" /></div>
     <div className='title-book-products-3'>
-    <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+   <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div>
     <div>
     <div className='image-book-products-4'><img src={no9} alt="" /></div>
     <div className='title-book-products-4'>
-    <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+   <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div>
     <div>
     <div className='image-book-products-4'><img src={no10} alt="" /></div>
     <div className='title-book-products-4'>
-    <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/profile/Biography/one.html">Learn  more ...</a></p>
+   <p><Link to="/BookDescription">Learn more...</Link></p> 
       </div>
     </div>
   </div>

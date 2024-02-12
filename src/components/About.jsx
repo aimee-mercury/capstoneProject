@@ -2,8 +2,17 @@ import React, { useEffect, useState } from 'react';
 import Image from '../assets/Screenshot 2024-01-16 100317.png';
 import Image1 from '../assets/Screenshot 2024-01-16 100423.png';
 import './about.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function About() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true, 
+    });
+  }, []);
+
   const [categoriesCount, setCategoriesCount] = useState(1);
   const [productsCount, setProductsCount] = useState(1);
   const [booksCount, setBooksCount] = useState(1);
@@ -30,7 +39,7 @@ function About() {
   }, []);
   return (
     <>
-    <div className='about-container'>
+    <div className='about-container' data-aos="fade-up" data-aos-duration={1000}>
  <div className='about' id='About'>
 <h1>About the library</h1>
 

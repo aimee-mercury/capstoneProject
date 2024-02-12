@@ -22,7 +22,7 @@ function Signout({onLogout}) {
     <Header OpenSidebar={OpenSidebar}/>
      <div className='finance-container'>
       <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
-      <div className='signout-dash-container'>
+      <div className='signout-dash-container'  data-aos="fade-up" data-aos-duration={2000}>
       <div className="logout-page-dashboard">
       <h1 className='dash-logout-header'>Logout</h1>
       <p className='dash-logout-paragraph'>Are you sure you want to logout?</p>

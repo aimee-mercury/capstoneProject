@@ -69,7 +69,7 @@ function Dashboard() {
         <Header OpenSidebar={OpenSidebar}/>
          <div className='dashboard-container'>
           <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
-    <main className='main-container'>
+    <main className='main-container'  data-aos="fade-up" data-aos-duration={2000}>
         <div className='main-title'>
             <h3>Dashboard</h3>
         </div>

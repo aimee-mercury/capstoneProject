@@ -31,7 +31,7 @@ body {
   .header {
     display: flex;
     align-items: center;
-    height: 56px;
+    height: 63px;
     justify-content: space-between;
     /* padding: 0 30px 0 30px; */
     background-color: #D0B999;
@@ -42,7 +42,7 @@ body {
   .header-right{
     display: flex;
     gap: 2rem;
-    margin-left: auto;
+    margin-left: 43rem;
     align-items: center;
   }
   .header-right span{
@@ -65,7 +65,7 @@ body {
   
   /* Sidebar  */
   #sidebar {
-    height: 92vh;
+    height: 91vh;
     width: 300px;
     background-color: #D0B999;
     overflow-y: auto;

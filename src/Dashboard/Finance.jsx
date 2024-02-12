@@ -29,7 +29,7 @@ function Finance() {
                     <SiBookstack />
                 </div>
                 <div className="content">
-                    <h5>Book Rent</h5>
+                    <h5>Borrowed Book</h5>
                     <h5 className='color'>Pending</h5>
                 </div>           
             </div>
@@ -69,7 +69,7 @@ function Finance() {
                     <SiBookstack />
                 </div>
                 <div className="content">
-                    <h5>Rented Books</h5>
+                    <h5>Borrowed Books</h5>
                     <h5 className='color'>Well paid</h5>
                 </div>           
             </div>

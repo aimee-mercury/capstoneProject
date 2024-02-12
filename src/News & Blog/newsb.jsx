@@ -7,7 +7,7 @@ import './newsb.css'
 function Newb() {
   return (
     <>
-    <div className='newb-container'>
+    <div className='newb-container' data-aos="fade-up" data-aos-duration={2000}>
     <div className='newb-heading'><h2>News & Blog</h2></div>
     <div className='booknewb'>
       <div className='image-book-newb-1'>

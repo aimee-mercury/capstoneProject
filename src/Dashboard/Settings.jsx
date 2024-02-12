@@ -42,7 +42,7 @@ function Settings() {
     <Header OpenSidebar={OpenSidebar}/>
      <div className='finance-container'>
       <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
-      <div className={`settings-dashboard-container ${themeMode}-mode`}>
+      <div className={`settings-dashboard-container ${themeMode}-mode`}  data-aos="fade-up" data-aos-duration={2000}>
         <div className='dashboard-settings-page'>
         <h1 className='sombe'>SETTINGS</h1><br />
           <br />

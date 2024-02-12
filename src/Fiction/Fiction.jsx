@@ -10,6 +10,7 @@ import children10 from '../assets/children10.jpeg'
 import children11 from '../assets/children11.jpeg'
 import children12 from '../assets/children12.jpeg'
 import './Fiction.css'
+import {Link} from 'react-router-dom'
 import Footer from '../Footer/Footer'
 import Navigation from '../components/Navigation'
 
@@ -23,31 +24,31 @@ function Fiction() {
       <div className='image-book-products-1'>
         <div><img src={chidren4} alt="" /></div>
         <div className='title-book-products-1'>
-          <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+        <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
       <div className='image-book-products-2'>
       <div><img src={children0} alt="" /></div>
       <div className='title-book-products-2'>
-      <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+    <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
       <div className='image-book-products-3'>
       <div><img src={children1} alt="" /></div>
       <div className='title-book-products-3'>
-      <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+    <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
       <div>
       <div className='image-book-products-4'><img src={children2} alt="" /></div>
       <div className='title-book-products-4'>
-      <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+    <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
       <div>
       <div className='image-book-products-4'><img src={children6} alt="" /></div>
       <div className='title-book-products-4'>
-      <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+    <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
     </div>
@@ -55,31 +56,31 @@ function Fiction() {
       <div className='image-book-products-1'>
         <div><img src={children7} alt="" /></div>
         <div className='title-book-products-1'>
-          <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+        <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
       <div className='image-book-products-2'>
       <div><img src={children8} alt="" /></div>
       <div className='title-book-products-2'>
-      <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+    <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
       <div className='image-book-products-3'>
       <div><img src={children10} alt="" /></div>
       <div className='title-book-products-3'>
-      <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+    <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
       <div>
       <div className='image-book-products-4'><img src={children11} alt="" /></div>
       <div className='title-book-products-4'>
-      <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+    <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
       <div>
       <div className='image-book-products-4'><img src={children12} alt="" /></div>
       <div className='title-book-products-4'>
-      <p><a href="http://127.0.0.1:5500/Library-Mgnt-System-Frontend/src/Fiction/na.html">Learn  more ...</a></p>
+    <p><Link to="/BookDescription">Learn more...</Link></p> 
         </div>
       </div>
     </div>

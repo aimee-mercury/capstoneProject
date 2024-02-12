@@ -24,7 +24,7 @@ export const Table = ({ rows, deleteRow, editRow }) => {
                 <td>{row.page}</td>
                 <td className="expand">{row.description}</td>
                 <td>
-                  <span className={`label label-${row.status}`}>
+                  <span style={{ color: 'black' }} className={`label label-${row.status}`}>
                     {statusText}
                   </span>
                 </td>
@@ -36,7 +36,7 @@ export const Table = ({ rows, deleteRow, editRow }) => {
                     />
                     <BsFillPencilFill
                       className="edit-btn"
-                      onClick={() => editRow(idx)}
+                      onClick={() => editRow(idx)} style={{color: 'blue'}}
                     />
                   </span>
                 </td>

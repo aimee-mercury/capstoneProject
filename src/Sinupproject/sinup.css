@@ -12,8 +12,11 @@
          }}
   .signup-container{
          background-color: #C8AB8D;
-         height:110vh;
+         height:125vh;
         
+    }
+    .fullnames-signup-label{
+      margin-left: 3rem;
     }
   body{
       color: var(--text-color);
@@ -28,12 +31,9 @@
       max-width:50rem;
        margin: 2rem auto; 
       text-align: center;
-
-      margin-bottom: -5rem;
-      background-color:  rgb(208,185,153);
+      /* background-color:  rgb(208,185,153); */
       height: 60rem;
-
-      margin-bottom: 5rem;
+      margin-top: 5rem;
       background-color:  #C8AB8D;
       height: 70rem;
 

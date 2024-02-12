@@ -1,15 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import stop from '../assets/book and tittle3 1.jpg'
 import kid from '../assets/book and tittle4 1.jpg'
 import tongue from '../assets/book and tittle6 1.jpg'
 import bibliograph from '../assets/thought-catalog-o0Qqw21-0NI-unsplash 1.jpg'
 import { Link } from 'react-router-dom'
 import './Categories.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Category() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true, 
+    });
+  }, []);
   return (
     <>
-    <div className='categories-container'>
+    <div className='categories-container'data-aos="fade-up" data-aos-duration={1000}>
     <div className='category-heading' id='categories'><h2>Category</h2></div>
     <div className='bookcategories'>
       <div className='image-book-category-1'>
