@@ -1,35 +1,57 @@
-import axios from 'axios'
-import './sinup.css'
-import Footer from '../Footer/Footer'
-import Navigation from '../components/Navigation'
-import { useState } from 'react'
-import {useNavigate, Link} from 'react-router-dom'
+import axios from 'axios';
+import './sinup.css';
+import Footer from '../Footer/Footer';
+import Navigation from '../components/Navigation';
+import { useState } from 'react';
+import {useNavigate, Link} from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function SinUp() {
   const [fullName, setFullName]= useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const navigate = useNavigate()
+  const [isLoading, setIsLoading] = useState(false);
+  const navigate = useNavigate();
+
   const handleSignUp = (e) =>{
+    setIsLoading(!isLoading);
     e.preventDefault();
-    console.log("submited successfully................");
     const data = {
       fullName: fullName,
       email: email,
       password: password,
       confirmPassword: confirmPassword
     }
-    console.log(data)
-    axios.post("http://localhost:5000/api/v1/auth/signup",data).then((res)=>{
-          alert('User Registered Successfully')
-        console.log("response: ",res.data)
-        navigate('/login')
-    }).catch((error)=>{
-      console.log("error while signing up......",error)
-    })
-  }
+    console.log(data);
+    axios({
+      method: 'POST',
+      url: 'http://localhost:5000/api/v1/auth/signup',
+      data: data,
+      // headers:{
+      //   Authorization: `Bearer ${token}`,
+      //   "Content-Type": 'application/json',
+      // }
+    }).then((response)=>{
+      console.log(response);
+      toast.success("User Registered Successfully");
+      localStorage.setItem('user', JSON.stringify(response));
+      localStorage.setItem('token', JSON.stringify(response.token));
+      toast.success("User login Successfully");
+      setTimeout(()=>{
+        navigate('/login');
+      }, 3000);
+      setIsLoading(false);
+    }).catch(error => {
+      console.log(error.response);
+      toast.error('encountered error');
+      // toast.error(error.response?.data?.message || "something went wrong");
+      // setIsLoading(false);
+    });
+  };
   return (
     <>
+    <ToastContainer />
     <div className='signup-container'>
      <Navigation/>
        <div className='wrapper'>
@@ -54,7 +76,7 @@ function SinUp() {
             <div className="remember">
             <input type="checkbox" className='larger-checkbox'/> I accept Terms of use and  privacy policy
             <br/><br/>
-              <button type="submit" className='btnsinup'>SignUp</button><br /><br />
+              <button type="submit" onClick={handleSignUp} className='btnsinup'>SignUp</button><br /><br />
             <div className="register-link">
                 <p className='sinup6'>Already have an account?<a href="login" className='up'>Login In Here</a></p>
                 </div>

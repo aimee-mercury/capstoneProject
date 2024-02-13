@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Navigation from "../components/Navigation";
 import axios from "axios";
-import {  toast } from 'react-toastify'
 import { useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function Login() {
   const [isLoading, setIsLoading ] = useState(false);
   const [email, setEmail ] = useState("");
@@ -24,8 +25,9 @@ function Login() {
           password: password
         }
       }).then((response)=>{
-        console.log(response)
-        toast.success("Logged In successfully");
+        toast.success("succesfully logged in");
+        console.log(response);
+        setIsLoading(false);
 
         // to store person info in local storage
         localStorage.setItem('user', JSON.stringify({
@@ -33,13 +35,16 @@ function Login() {
           email: response.data.email,
           id: response.data._id,
           role: response.data.role
-        }))
+        }));
+        setTimeout(()=>{
+          if (response.data.role == 'admin'){
+            navigate('/dashboard')
+          } else {
+            navigate('/collection')
+          }
+        }, 3000);
+        setIsLoading(false);
 
-        if (response.data.role == 'admin'){
-          navigate('/dashboard')
-        } else {
-          navigate('/collection')
-        }
       }).catch((error)=>{
         console.log(error.response);
         toast.error(error.response?.data?.message || "something went wrong");
@@ -48,6 +53,7 @@ function Login() {
   }
   return (
     <>
+      <ToastContainer/>
       <div className="mami">
         <Navigation />
         <form className="ap1" method="POST" onSubmit={handleLogin}>

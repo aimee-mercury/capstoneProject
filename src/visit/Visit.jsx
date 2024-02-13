@@ -39,20 +39,20 @@ function Support() {
     <h3 className="sppp"> Book Your place In our Book Shop </h3> <br /><br />
     <div className='vistusname'>
                 <div className='vistusfirst'>
-              <label className='vistus-firstname-label'>FirstName</label><br/><br/>
+              <label className='vistus-firstname-label'>FullName</label><br/><br/>
             <input type='text' required className='vistusfirst2'></input>
             </div>
-            <div className='vistussecond'>
+            {/* <div className='vistussecond'>
             <label className="vitus-surname-label">LastName</label><br/><br/>
             <input type='text' required className='vistussecond3'></input>
-            </div>
+            </div> */}
             </div> 
             <div className="vistus3">
             <label className="enn" >Email</label><br/>
             <input type="email"  required className='vistusthirdd' name="email" />
 
             </div>
-            <div className="twoo">
+            {/* <div className="twoo">
     
             <div className='vistusfouth'>
               <label className='vistus-fouth-label' required>Method of payments</label><br/>
@@ -67,7 +67,7 @@ function Support() {
               <label className='vistus-third-label' required>Number of people</label><br/>
             <input type='number' required className='vistusfirst4'></input>
             </div>
-     </div>
+     </div> */}
      <div className='vistusfith'>
               <label className='vistus-fith-label'>Leave A Message</label><br/>
               <textarea className="ten"></textarea><br/><br/><br />

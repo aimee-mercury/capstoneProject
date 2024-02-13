@@ -131,3 +131,34 @@ body{
 
   
 }
+
+
+/* nonfiction.css */
+.heeee {
+    padding: 20px;
+  }
+  
+  .products-heading {
+    text-align: center;
+  }
+  
+  .bookproducts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .image-book-products-1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .image-book-products-1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .title-book-products-1 {
+    text-align: center;
+  }
+  

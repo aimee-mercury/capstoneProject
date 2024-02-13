@@ -1,15 +1,6 @@
 import React, { useEffect, useState } from "react";
 import non1 from "../assets/non1.jpg";
-import non2 from "../assets/non2.jpg";
-import non3 from "../assets/non3.jpg";
-import non12 from "../assets/non12.jpg";
-import non10 from "../assets/non10.jpg";
-import non6 from "../assets/non6.jpg";
-import non4 from "../assets/non4.jpg";
-import non5 from "../assets/non5.jpg";
-import non7 from "../assets/non7.jpg";
-import non8 from "../assets/non8.jpg";
-import "./Nonfiction.css";
+import "../Non-Fiction/nonfiction.css";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Navigation from "../components/Navigation";
