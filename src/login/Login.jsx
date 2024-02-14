@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Navigation from "../components/Navigation";
 import axios from "axios";
+import "../Sinupproject/sinup.css"
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -59,23 +60,19 @@ function Login() {
         <form className="ap1" method="POST" onSubmit={handleLogin}>
           <h1 className="welcome">WELCOME TO WISDOM LIBRARY</h1><br/>
           <p className="please">Please enter your details</p>
-          <div className="input-container">
+          <div>
             <label> Email</label>
             <br />
+            <input type="email" required className="pas" name="email" onChange={(e)=>setEmail(e.target.value)}/>
             <br />
-            <input type="email" required className="email" name="email" onChange={(e)=>setEmail(e.target.value)}/>
-            <br />
-            <br />
+           
             <label className="login-password">Password</label> <br />
             <br />
-            <br />
-            <input type="password" required className="password" name="password" onChange={(e)=>setPassword(e.target.value)} />
-            <br />
-            <input type="checkbox" id="checkbox" /><p>Remember me<span className="login-span-1">Forgot password?</span></p>
+           
+            <input type="password" required  name="password" className="pas" onChange={(e)=>setPassword(e.target.value)} />     
           </div>
- <br /><br />
+ <br />
   <button type="submit" className="loginbut">Log in</button>
-          <br />
           <br />
           <p className="add">
             Do not  have an account?

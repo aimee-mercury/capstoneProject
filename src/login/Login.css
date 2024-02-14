@@ -1,10 +1,11 @@
 .mami {
   background-color: #C8AB8D;
-  padding: 20px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+ 
 }
 
 .ap1 {
@@ -13,6 +14,7 @@
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.541);
   max-width: 400px;
+  margin-top: 70px;
   width: 100%;
 }
 
@@ -28,11 +30,9 @@
   margin-bottom: 30px;
 }
 
-.input-container {
-  margin-bottom: 20px;
-}
 
-.input-container label {
+
+ label {
   font-size: 1.6rem;
 }
 
@@ -51,19 +51,18 @@
   font-size: 1.4rem;
 }
 
-.login-span-1 {
-  font-size: 1.4rem;
-}
 
 .loginbut {
   background-color: white;
   color: #C8AB8D;
   border: none;
+  border-radius: 50%;
+  width: 150px;
+  height: 50px;
   padding: 12px 24px;
   font-size: 1.6rem;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 110px;
   transition: background-color 0.3s ease;
 }
 
@@ -73,16 +72,21 @@
 
 .add {
   font-size: 1.6rem;
-  text-align: center;
 }
 
 .login-span-2 {
   font-weight: bold;
   color: white;
   text-decoration: none;
-  margin-left: 5px;
+  margin-left: 15px;
 }
-
+.pas{
+  width: 100%;
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 @media (max-width: 768px) {
   .ap1 {
     padding: 20px;
