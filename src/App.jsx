@@ -21,7 +21,7 @@ import Academic from '../src/profile/Academics/Academic';
 import Bibiliograph from './profile/Biography/Biogr';
 import Login from './login/Login';
 import BookDescription from './Non-Fiction/BookDescription';
-function App() {
+function  App() {
  
 
   return (
